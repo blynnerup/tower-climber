@@ -130,7 +130,16 @@
 				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/Ledges/ledge_thick_short_Sprite.uasset",
 				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/Ledges/ledge_thin_long_Sprite.uasset",
 				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/Spring/Spring__Active.uasset",
-				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/Spring/Spring__Idle_PNG_Flipbook.uasset"
+				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/Spring/Spring__Idle_PNG_Flipbook.uasset",
+				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/BP_PlatformerChar.uasset",
+				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Input/Actions/IA_Move.uasset",
+				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Input/Actions/IA_Jump.uasset",
+				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Input/IMC_Platformer.uasset",
+				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/BP_King.uasset",
+				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset",
+				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_King.uasset",
+				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_Pig.uasset",
+				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/GM_Platformer.uasset"
 			]
 		}
 	]
