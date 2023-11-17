@@ -1475,3 +1475,47 @@ FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\So
 [2023.11.17-14.48.41:455][515]LogFileHelpers: InternalPromptForCheckoutAndSave took 31 ms (total: 526 ms)
 [2023.11.17-14.48.41:456][515]AssetCheck: New page: Asset Save: AS_King
 [2023.11.17-14.48.41:456][515]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimationSource_Flipbook /Game/Blueprints/Characters/King/AS_King.AS_King
+[2023.11.17-14.49.16:077][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.11.17-14.49.16:080][856]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Debug' took 0.018
+[2023.11.17-14.49.16:080][856]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/King/AnimSequences/Idle] ([1] browsable assets)...
+[2023.11.17-14.49.16:080][856]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/King/AnimSequences/Idle]
+[2023.11.17-14.49.16:083][856]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Characters/King/AnimSequences/Idle_Auto3
+[2023.11.17-14.49.16:083][856]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Idle_Auto3FB55D62F481CDAE626CB96BAEF237B16.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Blueprints/Characters/King/AnimSequences/Idle_Auto3.uasset'
+[2023.11.17-14.49.16:083][856]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/King/AnimSequences/Run] ([1] browsable assets)...
+[2023.11.17-14.49.16:083][856]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/King/AnimSequences/Run]
+[2023.11.17-14.49.16:084][856]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Characters/King/AnimSequences/Run_Auto3
+[2023.11.17-14.49.16:084][856]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Run_Auto3DD60F9ED48504C44B3C84F8391966A95.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Blueprints/Characters/King/AnimSequences/Run_Auto3.uasset'
+[2023.11.17-14.49.16:084][856]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sounds/PlayerDefeated/S_PlayerDefeated_Cue] ([1] browsable assets)...
+[2023.11.17-14.49.16:084][856]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sounds/PlayerDefeated/S_PlayerDefeated_Cue]
+[2023.11.17-14.49.16:085][856]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Sounds/PlayerDefeated/S_PlayerDefeated_Cue_Auto3
+[2023.11.17-14.49.16:085][856]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/S_PlayerDefeated_Cue_Auto3D0E19A984929641FDD75CB80B1BA931A.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Sounds/PlayerDefeated/S_PlayerDefeated_Cue_Auto3.uasset'
+[2023.11.17-14.49.16:086][856]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sounds/Footsteps/S_Step_1_Cue] ([1] browsable assets)...
+[2023.11.17-14.49.16:086][856]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sounds/Footsteps/S_Step_1_Cue]
+[2023.11.17-14.49.16:086][856]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Sounds/Footsteps/S_Step_1_Cue_Auto3
+[2023.11.17-14.49.16:086][856]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/S_Step_1_Cue_Auto3A0DB0A9D45D06236B6DDC8B4946B4B9F.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Sounds/Footsteps/S_Step_1_Cue_Auto3.uasset'
+[2023.11.17-14.49.16:087][856]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sounds/Footsteps/S_Step_2_Cue] ([1] browsable assets)...
+[2023.11.17-14.49.16:087][856]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sounds/Footsteps/S_Step_2_Cue]
+[2023.11.17-14.49.16:087][856]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Sounds/Footsteps/S_Step_2_Cue_Auto3
+[2023.11.17-14.49.16:087][856]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/S_Step_2_Cue_Auto3EBD66A6A4A0244AFAFBB2E8CDF5DBADD.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Sounds/Footsteps/S_Step_2_Cue_Auto3.uasset'
+[2023.11.17-14.49.16:087][856]LogFileHelpers: Auto-saving content packages took 0.008
+[2023.11.17-14.49.58:801][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.11.17-14.49.58:804][176]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.49.58:832][176]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/AnimSequences/Idle
+[2023.11.17-14.49.58:832][176]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Idle25609A604CD5A42FA846C9812F6332AB.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AnimSequences/Idle.uasset'
+[2023.11.17-14.49.58:834][176]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/AnimSequences/Run
+[2023.11.17-14.49.58:834][176]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/RunBE865845406AE0EA1D8735BAEECA0640.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AnimSequences/Run.uasset'
+[2023.11.17-14.49.58:835][176]LogSavePackage: Moving output files for package: /Game/Sounds/PlayerDefeated/S_PlayerDefeated_Cue
+[2023.11.17-14.49.58:835][176]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/S_PlayerDefeated_Cue41226C014A086EA2A464E882DCBBC409.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Sounds/PlayerDefeated/S_PlayerDefeated_Cue.uasset'
+[2023.11.17-14.49.58:836][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Footsteps/S_Step_1_Cue" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Sounds/Footsteps/S_Step_1_Cue.uasset" SILENT=true
+[2023.11.17-14.49.58:837][176]LogSavePackage: Moving output files for package: /Game/Sounds/Footsteps/S_Step_1_Cue
+[2023.11.17-14.49.58:837][176]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/S_Step_1_CueE2D7DA304D5145382280378EBC42CC13.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Sounds/Footsteps/S_Step_1_Cue.uasset'
+[2023.11.17-14.49.58:837][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Footsteps/S_Step_2_Cue" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Sounds/Footsteps/S_Step_2_Cue.uasset" SILENT=true
+[2023.11.17-14.49.58:838][176]LogSavePackage: Moving output files for package: /Game/Sounds/Footsteps/S_Step_2_Cue
+[2023.11.17-14.49.58:838][176]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/S_Step_2_Cue6248C8894E1830F1032A718AB3613FF2.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Sounds/Footsteps/S_Step_2_Cue.uasset'
+[2023.11.17-14.49.58:844][176]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 566 ms)
+[2023.11.17-14.49.58:845][176]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.17-14.49.58:845][176]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/Blueprints/Characters/King/AnimSequences/Idle.Idle
+[2023.11.17-14.49.58:845][176]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/Blueprints/Characters/King/AnimSequences/Run.Run
+[2023.11.17-14.49.58:845][176]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/PlayerDefeated/S_PlayerDefeated_Cue.S_PlayerDefeated_Cue
+[2023.11.17-14.49.58:845][176]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/Footsteps/S_Step_1_Cue.S_Step_1_Cue
+[2023.11.17-14.49.58:845][176]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/Footsteps/S_Step_2_Cue.S_Step_2_Cue
