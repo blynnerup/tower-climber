@@ -1327,3 +1327,151 @@ FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\So
 [2023.11.17-11.17.38:735][168]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
 [2023.11.17-11.17.38:740][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
 [2023.11.17-11.17.38:794][170]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.11.17-11.48.22:015][885]LogDerivedDataCache: C:/Users/Brian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.049 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 787 files in 1274 folders with total size 4 MiB.
+[2023.11.17-12.35.08:989][597]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2023.11.17-12.48.21:026][129]LogDerivedDataCache: C:/Users/Brian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.059 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 787 files in 1274 folders with total size 4 MiB.
+[2023.11.17-13.48.22:004][930]LogDerivedDataCache: C:/Users/Brian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.037 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 787 files in 1274 folders with total size 4 MiB.
+[2023.11.17-14.42.34:215][693]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.11.17-14.42.34:224][693]LogContentBrowser: Creating deferred item: NewFolder
+[2023.11.17-14.42.34:230][694]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.11.17-14.42.35:983][882]LogContentBrowser: Attempting asset rename: NewFolder -> King
+[2023.11.17-14.42.35:983][882]LogContentBrowser: End creating deferred item NewFolder
+[2023.11.17-14.42.36:948][984]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.11.17-14.42.36:951][984]LogContentBrowser: Creating deferred item: NewFolder
+[2023.11.17-14.42.36:961][985]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.11.17-14.42.38:101][106]LogContentBrowser: Attempting asset rename: NewFolder -> Pig
+[2023.11.17-14.42.38:101][106]LogContentBrowser: End creating deferred item NewFolder
+[2023.11.17-14.42.41:282][382]LogMetaData: Removing '/Game/Blueprints/Characters/King/BP_King.BP_King_C' ref from Metadata '/Game/Blueprints/Characters/BP_King.PackageMetaData'
+[2023.11.17-14.42.41:282][382]LogMetaData: Removing '/Game/Blueprints/Characters/King/BP_King.BP_King:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Characters/BP_King.PackageMetaData'
+[2023.11.17-14.42.41:282][382]LogMetaData: Removing '/Game/Blueprints/Characters/King/BP_King.BP_King:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Characters/BP_King.PackageMetaData'
+[2023.11.17-14.42.41:282][382]LogMetaData: Removing '/Game/Blueprints/Characters/King/BP_King.BP_King:UpdateControllerRotation.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Characters/BP_King.PackageMetaData'
+[2023.11.17-14.42.41:282][382]LogMetaData: Removing '/Game/Blueprints/Characters/King/BP_King.BP_King_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Characters/BP_King.PackageMetaData'
+[2023.11.17-14.42.41:282][382]LogMetaData: Removing '/Game/Blueprints/Characters/King/BP_King.BP_King_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Characters/BP_King.PackageMetaData'
+[2023.11.17-14.42.41:282][382]LogMetaData: Removing '/Game/Blueprints/Characters/King/BP_King.SKEL_BP_King_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Characters/BP_King.PackageMetaData'
+[2023.11.17-14.42.41:282][382]LogMetaData: Removing '/Game/Blueprints/Characters/King/BP_King.SKEL_BP_King_C' ref from Metadata '/Game/Blueprints/Characters/BP_King.PackageMetaData'
+[2023.11.17-14.42.41:282][382]LogMetaData: Removing '/Game/Blueprints/Characters/King/BP_King.SKEL_BP_King_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Characters/BP_King.PackageMetaData'
+[2023.11.17-14.42.41:282][382]LogMetaData: Removing '/Game/Blueprints/Characters/King/BP_King.SKEL_BP_King_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Characters/BP_King.PackageMetaData'
+[2023.11.17-14.42.41:305][382]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.42.41:336][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GM_Platformer" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/GM_Platformer.uasset" SILENT=true
+[2023.11.17-14.42.41:339][382]LogSavePackage: Moving output files for package: /Game/Blueprints/GM_Platformer
+[2023.11.17-14.42.41:339][382]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/GM_PlatformerF7AD487241F2AD868E5D3B98C90E4B40.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/GM_Platformer.uasset'
+[2023.11.17-14.42.41:339][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/BP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset" SILENT=true
+[2023.11.17-14.42.41:348][382]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/BP_King
+[2023.11.17-14.42.41:348][382]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_KingE219F6C0466F875206224C854D56E8D1.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset'
+[2023.11.17-14.42.41:357][382]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 278 ms)
+[2023.11.17-14.42.41:401][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.11.17-14.42.41:419][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.11.17-14.42.41:432][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.11.17-14.42.41:445][382]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.17-14.42.41:445][382]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/GM_Platformer.GM_Platformer
+[2023.11.17-14.42.41:445][382]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/King/BP_King.BP_King
+[2023.11.17-14.42.43:841][616]LogMetaData: Removing '/Game/Blueprints/Characters/Pig/BP_Pig.BP_Pig_C' ref from Metadata '/Game/Blueprints/Characters/BP_Pig.PackageMetaData'
+[2023.11.17-14.42.43:841][616]LogMetaData: Removing '/Game/Blueprints/Characters/Pig/BP_Pig.BP_Pig:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Characters/BP_Pig.PackageMetaData'
+[2023.11.17-14.42.43:841][616]LogMetaData: Removing '/Game/Blueprints/Characters/Pig/BP_Pig.BP_Pig:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Characters/BP_Pig.PackageMetaData'
+[2023.11.17-14.42.43:841][616]LogMetaData: Removing '/Game/Blueprints/Characters/Pig/BP_Pig.BP_Pig:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Characters/BP_Pig.PackageMetaData'
+[2023.11.17-14.42.43:841][616]LogMetaData: Removing '/Game/Blueprints/Characters/Pig/BP_Pig.BP_Pig:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Characters/BP_Pig.PackageMetaData'
+[2023.11.17-14.42.43:841][616]LogMetaData: Removing '/Game/Blueprints/Characters/Pig/BP_Pig.SKEL_BP_Pig_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Characters/BP_Pig.PackageMetaData'
+[2023.11.17-14.42.43:841][616]LogMetaData: Removing '/Game/Blueprints/Characters/Pig/BP_Pig.SKEL_BP_Pig_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Characters/BP_Pig.PackageMetaData'
+[2023.11.17-14.42.43:841][616]LogMetaData: Removing '/Game/Blueprints/Characters/Pig/BP_Pig.SKEL_BP_Pig_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Characters/BP_Pig.PackageMetaData'
+[2023.11.17-14.42.43:841][616]LogMetaData: Removing '/Game/Blueprints/Characters/Pig/BP_Pig.SKEL_BP_Pig_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Characters/BP_Pig.PackageMetaData'
+[2023.11.17-14.42.43:841][616]LogMetaData: Removing '/Game/Blueprints/Characters/Pig/BP_Pig.SKEL_BP_Pig_C' ref from Metadata '/Game/Blueprints/Characters/BP_Pig.PackageMetaData'
+[2023.11.17-14.42.43:841][616]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.42.43:870][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Pig/BP_Pig" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/Pig/BP_Pig.uasset" SILENT=true
+[2023.11.17-14.42.43:870][616]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/Blueprints/Characters/Pig/BP_Pig does not exist, will not scan.
+[2023.11.17-14.42.43:874][616]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Pig/BP_Pig
+[2023.11.17-14.42.43:874][616]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_Pig65464F49480CAC8F67BBB2A0B63AFD27.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/Pig/BP_Pig.uasset'
+[2023.11.17-14.42.43:882][616]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 318 ms)
+[2023.11.17-14.42.43:901][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.11.17-14.42.43:914][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.11.17-14.42.43:927][616]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.11.17-14.42.43:938][616]AssetCheck: New page: Asset Save: BP_Pig
+[2023.11.17-14.42.43:938][616]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Pig/BP_Pig.BP_Pig
+[2023.11.17-14.43.13:939][691]LogContentBrowser: Deferred new asset file creation: NewPaperZDAnimationSource
+[2023.11.17-14.43.13:945][691]LogContentBrowser: Creating deferred item: NewPaperZDAnimationSource
+[2023.11.17-14.43.13:952][692]LogContentBrowser: Renaming the item being created (Deferred Item: NewPaperZDAnimationSource).
+[2023.11.17-14.43.19:101][239]LogContentBrowser: Attempting asset rename: NewPaperZDAnimationSource -> AS_King
+[2023.11.17-14.43.19:101][239]LogContentBrowser: End creating deferred item NewPaperZDAnimationSource
+[2023.11.17-14.43.19:337][264]LogAssetEditorSubsystem: Opening Asset editor for PaperZDAnimationSource_Flipbook /Game/Blueprints/Characters/King/AS_King.AS_King
+[2023.11.17-14.43.19:438][264]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-14.43.19:438][264]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-14.43.19:504][264]LogSlate: Took 0.015605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.11.17-14.43.19:525][264]LogViewport: Scene viewport resized to 1525x1254, mode Windowed.
+[2023.11.17-14.43.19:536][264]LogSlate: Took 0.003965 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.11.17-14.43.31:837][295]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/PaperZD.PaperZDAnimSequence_Flipbook
+[2023.11.17-14.43.31:858][295]LogViewport: Scene viewport resized to 1525x749, mode Windowed.
+[2023.11.17-14.43.34:880][551]LogContentBrowser: Attempting asset rename: NewPaperZDAnimSequence -> Idle
+[2023.11.17-14.43.34:904][551]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.43.34:933][551]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/AnimSequences/Idle
+[2023.11.17-14.43.34:933][551]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/IdleE1D626EB46A04480C8A495A905F32FCE.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AnimSequences/Idle.uasset'
+[2023.11.17-14.43.34:940][551]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 354 ms)
+[2023.11.17-14.43.34:959][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.11.17-14.43.34:973][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.11.17-14.43.34:985][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.11.17-14.43.34:986][551]AssetCheck: New page: Asset Save: Idle
+[2023.11.17-14.43.34:986][551]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/Blueprints/Characters/King/AnimSequences/Idle.Idle
+[2023.11.17-14.44.04:662][ 29]LogViewport: Scene viewport resized to 1523x763, mode Windowed.
+[2023.11.17-14.44.04:711][ 31]LogViewport: Scene viewport resized to 799x370, mode Windowed.
+[2023.11.17-14.44.04:744][ 32]LogViewport: Scene viewport resized to 472x192, mode Windowed.
+[2023.11.17-14.44.04:765][ 33]LogViewport: Scene viewport resized to 467x189, mode Windowed.
+[2023.11.17-14.44.05:373][ 89]LogViewport: Scene viewport resized to 1525x749, mode Windowed.
+[2023.11.17-14.44.06:537][221]LogSlate: Window 'AS_King' being destroyed
+[2023.11.17-14.44.22:876][963]LogContentBrowser: Attempting asset rename: NewPaperZDAnimSequence -> Walk
+[2023.11.17-14.44.22:898][963]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.44.22:928][963]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/AnimSequences/Walk
+[2023.11.17-14.44.22:928][963]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/WalkEBF3E1094F1DA4E0C16D51B89F6D5DAA.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AnimSequences/Walk.uasset'
+[2023.11.17-14.44.22:933][963]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 389 ms)
+[2023.11.17-14.44.22:951][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.11.17-14.44.22:966][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.11.17-14.44.22:978][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.11.17-14.44.22:980][963]AssetCheck: New page: Asset Save: Walk
+[2023.11.17-14.44.22:980][963]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/Blueprints/Characters/King/AnimSequences/Walk.Walk
+[2023.11.17-14.44.36:029][513]LogContentBrowser: Attempting asset rename: Walk -> Run
+[2023.11.17-14.44.36:052][513]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.44.36:080][513]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/AnimSequences/Run
+[2023.11.17-14.44.36:080][513]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Run6FBAF46D40499D6B6BAA76BEDA6B4835.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AnimSequences/Run.uasset'
+[2023.11.17-14.44.36:085][513]LogFileHelpers: InternalPromptForCheckoutAndSave took 33 ms (total: 423 ms)
+[2023.11.17-14.44.36:103][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.11.17-14.44.36:119][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.11.17-14.44.36:129][513]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.11.17-14.44.36:131][513]AssetCheck: New page: Asset Save: Run
+[2023.11.17-14.44.36:131][513]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/Blueprints/Characters/King/AnimSequences/Run.Run
+[2023.11.17-14.45.23:118][ 27]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.11.17-14.45.23:128][ 27]LogContentBrowser: Creating deferred item: NewFolder
+[2023.11.17-14.45.23:134][ 28]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.11.17-14.45.24:047][126]LogContentBrowser: Attempting asset rename: NewFolder -> Sounds
+[2023.11.17-14.45.24:047][126]LogContentBrowser: End creating deferred item NewFolder
+[2023.11.17-14.45.45:273][420]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2023.11.17-14.45.45:273][420]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2023.11.17-14.45.48:429][727]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.45.48:456][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Footsteps/S_Step_2" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Sounds/Footsteps/S_Step_2.uasset" SILENT=true
+[2023.11.17-14.45.48:468][727]LogSavePackage: Moving output files for package: /Game/Sounds/Footsteps/S_Step_2
+[2023.11.17-14.45.48:468][727]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/S_Step_2F3B85FFE415E0A0DEBBC139E8C63046D.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Sounds/Footsteps/S_Step_2.uasset'
+[2023.11.17-14.45.48:469][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Footsteps/S_Step_1" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Sounds/Footsteps/S_Step_1.uasset" SILENT=true
+[2023.11.17-14.45.48:470][727]LogSavePackage: Moving output files for package: /Game/Sounds/Footsteps/S_Step_1
+[2023.11.17-14.45.48:470][727]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/S_Step_1C89FBCD24D0D07626DC65BA9C0ED35DA.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Sounds/Footsteps/S_Step_1.uasset'
+[2023.11.17-14.45.48:476][727]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 469 ms)
+[2023.11.17-14.45.48:498][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.11.17-14.45.48:512][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.11.17-14.45.48:526][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.11.17-14.45.48:548][727]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.17-14.45.48:548][727]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/Footsteps/S_Step_2.S_Step_2
+[2023.11.17-14.45.48:548][727]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/Footsteps/S_Step_1.S_Step_1
+[2023.11.17-14.45.51:694][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.45.51:712][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/PlayerDefeated/S_PlayerDefeated" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Sounds/PlayerDefeated/S_PlayerDefeated.uasset" SILENT=true
+[2023.11.17-14.45.51:713][ 40]LogSavePackage: Moving output files for package: /Game/Sounds/PlayerDefeated/S_PlayerDefeated
+[2023.11.17-14.45.51:713][ 40]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/S_PlayerDefeatedE61DDC3649624BA527CDC39185834630.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Sounds/PlayerDefeated/S_PlayerDefeated.uasset'
+[2023.11.17-14.45.51:720][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave took 25 ms (total: 494 ms)
+[2023.11.17-14.45.51:738][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.11.17-14.45.51:752][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.11.17-14.45.51:765][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.11.17-14.45.51:783][ 40]AssetCheck: New page: Asset Save: S_PlayerDefeated
+[2023.11.17-14.45.51:783][ 40]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/PlayerDefeated/S_PlayerDefeated.S_PlayerDefeated
+[2023.11.17-14.46.11:999][640]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_16.svg'. File could not be found
+[2023.11.17-14.48.21:036][ 80]LogDerivedDataCache: C:/Users/Brian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.068 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 791 files in 1279 folders with total size 4 MiB.
+[2023.11.17-14.48.41:424][515]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.48.41:450][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/AS_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AS_King.uasset" SILENT=true
+[2023.11.17-14.48.41:450][515]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/AS_King
+[2023.11.17-14.48.41:450][515]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/AS_King03F4BC504387BFDB776522A513029FF3.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AS_King.uasset'
+[2023.11.17-14.48.41:455][515]LogFileHelpers: InternalPromptForCheckoutAndSave took 31 ms (total: 526 ms)
+[2023.11.17-14.48.41:456][515]AssetCheck: New page: Asset Save: AS_King
+[2023.11.17-14.48.41:456][515]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimationSource_Flipbook /Game/Blueprints/Characters/King/AS_King.AS_King
