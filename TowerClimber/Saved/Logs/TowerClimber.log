@@ -1519,3 +1519,567 @@ FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\So
 [2023.11.17-14.49.58:845][176]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/PlayerDefeated/S_PlayerDefeated_Cue.S_PlayerDefeated_Cue
 [2023.11.17-14.49.58:845][176]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/Footsteps/S_Step_1_Cue.S_Step_1_Cue
 [2023.11.17-14.49.58:845][176]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/Footsteps/S_Step_2_Cue.S_Step_2_Cue
+[2023.11.17-14.50.38:672][313]LogSlate: Window 'Pick Parent Animation Source' being destroyed
+[2023.11.17-14.50.38:678][313]LogContentBrowser: Deferred new asset file creation: NewPaperZDAnimBP
+[2023.11.17-14.50.38:682][313]LogContentBrowser: Creating deferred item: NewPaperZDAnimBP
+[2023.11.17-14.50.38:690][314]LogContentBrowser: Renaming the item being created (Deferred Item: NewPaperZDAnimBP).
+[2023.11.17-14.50.44:904][960]LogContentBrowser: Attempting asset rename: NewPaperZDAnimBP -> ABP_King
+[2023.11.17-14.50.44:921][960]LogContentBrowser: End creating deferred item NewPaperZDAnimBP
+[2023.11.17-14.50.45:925][ 61]LogAssetEditorSubsystem: Opening Asset editor for PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-14.50.45:925][ 61]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-14.50.45:925][ 61]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-14.52.14:806][576]BlueprintLog: New page: Compile ABP_King
+[2023.11.17-14.52.14:824][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.11.17-14.52.15:344][634]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.52.15:375][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-14.52.15:378][634]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-14.52.15:378][634]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_KingA2E2D9E846E11E9B153D59A0ED97423C.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-14.52.15:386][634]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 607 ms)
+[2023.11.17-14.52.15:386][634]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-14.52.15:386][634]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-14.52.20:354][223]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.17-14.52.20:739][266]LogViewport: Scene viewport resized to 1525x973, mode Windowed.
+[2023.11.17-14.52.35:343][996]BlueprintLog: New page: Compile BP_King
+[2023.11.17-14.52.35:356][996]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.17-14.52.35:378][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.11.17-14.52.35:398][996]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.17-14.52.35:428][996]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.17-14.52.36:176][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.52.36:201][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/BP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset" SILENT=true
+[2023.11.17-14.52.36:212][ 81]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/BP_King
+[2023.11.17-14.52.36:212][ 81]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_KingCA84119E44C8A1D4DD2BF7A5BD277C4A.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset'
+[2023.11.17-14.52.36:217][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 649 ms)
+[2023.11.17-14.52.36:218][ 81]AssetCheck: New page: Asset Save: BP_King
+[2023.11.17-14.52.36:218][ 81]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/King/BP_King.BP_King
+[2023.11.17-14.52.41:082][630]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-14.52.41:087][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-14.52.41:087][630]PIE: New page: PIE session: MAP_Debug (17 Nov 2023, 16.52.41)
+[2023.11.17-14.52.41:087][630]LogPlayLevel: Display: Creating online subsystem for client :Context_7
+[2023.11.17-14.52.41:088][630]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.11.17-14.52.41:101][631]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.11.17-14.52.41:102][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001524s)
+[2023.11.17-14.52.41:102][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001559s)
+[2023.11.17-14.52.41:116][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.11.17-14.52.41:119][631]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-14.52.41:119][631]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-14.52.41:120][631]LogAIModule: Creating AISystem for world MAP_Debug
+[2023.11.17-14.52.41:120][631]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2023.11.17-14.52.41:120][631]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.11.17-14.52.41:120][631]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-14.52.41:120][631]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-14.52.41:120][631]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-14.52.41:120][631]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-14.52.41:120][631]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-14.52.41:120][631]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.17-14.52.41:120][631]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-14.52.41:120][631]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-14.52.41:121][631]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-14.52.41:121][631]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-14.52.41:121][631]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-14.52.41:123][631]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-14.52.41:142][631]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.17-14.52.41:142][631]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-14.52.41:142][631]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-14.52.41:142][631]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-14.52.41:143][631]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.11.17-14.52.41:143][631]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.11.17-14.52.41:144][631]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.11.17-14.52.41:144][631]LogInit: FAudioDevice initialized with ID 4.
+[2023.11.17-14.52.41:144][631]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.11.17-14.52.41:144][631]LogAudio: Display: Audio Device (ID: 4) registered with world 'MAP_Debug'.
+[2023.11.17-14.52.41:144][631]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.11.17-14.52.41:147][631]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.17-14.52.41:147][631]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2023.11.17-15.52.41
+[2023.11.17-14.52.41:147][631]LogWorld: Bringing up level for play took: 0.000480
+[2023.11.17-14.52.41:149][631]PIE: Server logged in
+[2023.11.17-14.52.41:149][631]PIE: Play in editor total start time 0,063 seconds.
+[2023.11.17-14.52.51:486][741]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-14.52.51:486][741]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.11.17-14.52.51:486][741]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-14.52.51:486][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-14.52.51:489][741]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-14.52.51:493][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-14.52.51:505][741]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-14.52.51:505][741]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.11.17-14.52.51:505][741]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.11.17-14.52.51:506][741]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.11.17-14.52.51:511][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.11.17-14.52.51:554][745]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.11.17-14.55.59:168][860]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.55.59:189][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-14.55.59:194][860]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-14.55.59:194][860]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_KingF997AE6C43D26A93C75CF7AA66A5CE27.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-14.55.59:199][860]LogFileHelpers: InternalPromptForCheckoutAndSave took 31 ms (total: 681 ms)
+[2023.11.17-14.55.59:201][860]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-14.55.59:201][860]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-14.55.59:666][916]BlueprintLog: New page: Compile ABP_King
+[2023.11.17-14.55.59:682][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.11.17-14.56.35:124][135]BlueprintLog: New page: Compile ABP_King
+[2023.11.17-14.56.35:141][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.11.17-14.56.35:525][175]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.56.35:551][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-14.56.35:556][175]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-14.56.35:556][175]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_King0A6C9CB54E37CC86D7F2E39023E0D82C.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-14.56.35:561][175]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 718 ms)
+[2023.11.17-14.56.35:566][175]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-14.56.35:566][175]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-14.57.47:798][387]BlueprintLog: New page: Compile ABP_King
+[2023.11.17-14.57.47:815][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.11.17-14.58.37:500][196]BlueprintLog: New page: Compile ABP_King
+[2023.11.17-14.58.37:517][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.11.17-14.58.37:956][246]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.58.37:982][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-14.58.37:989][246]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-14.58.37:989][246]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_King1F19C25C46B8EC9EB85EB29A62F52C5B.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-14.58.37:994][246]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 756 ms)
+[2023.11.17-14.58.37:995][246]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-14.58.37:995][246]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-14.58.40:418][388]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-14.58.40:422][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-14.58.40:422][388]PIE: New page: PIE session: MAP_Debug (17 Nov 2023, 16.58.40)
+[2023.11.17-14.58.40:422][388]LogPlayLevel: Display: Creating online subsystem for client :Context_8
+[2023.11.17-14.58.40:424][388]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.11.17-14.58.40:435][389]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.11.17-14.58.40:436][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001427s)
+[2023.11.17-14.58.40:436][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001459s)
+[2023.11.17-14.58.40:450][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.11.17-14.58.40:452][389]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-14.58.40:452][389]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-14.58.40:452][389]LogAIModule: Creating AISystem for world MAP_Debug
+[2023.11.17-14.58.40:452][389]LogPlayLevel: PIE: World Init took: (0.000857s)
+[2023.11.17-14.58.40:452][389]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.11.17-14.58.40:452][389]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-14.58.40:452][389]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-14.58.40:452][389]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-14.58.40:452][389]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-14.58.40:452][389]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-14.58.40:452][389]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.17-14.58.40:452][389]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-14.58.40:452][389]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-14.58.40:454][389]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-14.58.40:454][389]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-14.58.40:454][389]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-14.58.40:455][389]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-14.58.40:473][389]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.17-14.58.40:474][389]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-14.58.40:474][389]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-14.58.40:474][389]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-14.58.40:475][389]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.11.17-14.58.40:475][389]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.11.17-14.58.40:476][389]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.11.17-14.58.40:476][389]LogInit: FAudioDevice initialized with ID 5.
+[2023.11.17-14.58.40:476][389]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.11.17-14.58.40:476][389]LogAudio: Display: Audio Device (ID: 5) registered with world 'MAP_Debug'.
+[2023.11.17-14.58.40:476][389]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.11.17-14.58.40:479][389]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.17-14.58.40:480][389]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2023.11.17-15.58.40
+[2023.11.17-14.58.40:480][389]LogWorld: Bringing up level for play took: 0.000528
+[2023.11.17-14.58.40:481][389]PIE: Server logged in
+[2023.11.17-14.58.40:482][389]PIE: Play in editor total start time 0,059 seconds.
+[2023.11.17-14.58.44:340][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-14.58.44:340][797]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.11.17-14.58.44:340][797]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-14.58.44:340][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-14.58.44:343][797]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-14.58.44:346][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-14.58.44:359][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-14.58.44:359][797]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.11.17-14.58.44:359][797]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.11.17-14.58.44:360][797]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.11.17-14.58.44:365][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.11.17-14.58.44:393][798]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.11.17-14.59.22:127][252]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-14.59.22:150][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-14.59.22:155][252]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-14.59.22:155][252]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_King4428E85846CEA73A71A6E09420012B51.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-14.59.22:161][252]LogFileHelpers: InternalPromptForCheckoutAndSave took 34 ms (total: 790 ms)
+[2023.11.17-14.59.22:162][252]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-14.59.22:162][252]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-14.59.23:415][403]BlueprintLog: New page: Compile ABP_King
+[2023.11.17-14.59.23:430][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.11.17-15.00.02:705][972]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.00.02:732][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-15.00.02:738][972]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-15.00.02:739][972]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_King53A321E14E8A8ADF2D1B8DAFE1A1213E.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-15.00.02:744][972]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 828 ms)
+[2023.11.17-15.00.02:745][972]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-15.00.02:745][972]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-15.00.02:982][  1]BlueprintLog: New page: Compile ABP_King
+[2023.11.17-15.00.02:999][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.11.17-15.00.04:767][179]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-15.00.04:772][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-15.00.04:772][179]PIE: New page: PIE session: MAP_Debug (17 Nov 2023, 17.00.04)
+[2023.11.17-15.00.04:817][179]LogPlayLevel: Display: Creating online subsystem for client :Context_9
+[2023.11.17-15.00.04:820][179]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.11.17-15.00.04:833][180]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.11.17-15.00.04:835][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001671s)
+[2023.11.17-15.00.04:835][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001703s)
+[2023.11.17-15.00.04:848][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.11.17-15.00.04:849][180]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-15.00.04:849][180]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-15.00.04:850][180]LogAIModule: Creating AISystem for world MAP_Debug
+[2023.11.17-15.00.04:850][180]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2023.11.17-15.00.04:850][180]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.11.17-15.00.04:850][180]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-15.00.04:850][180]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-15.00.04:850][180]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-15.00.04:850][180]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-15.00.04:850][180]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-15.00.04:850][180]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.17-15.00.04:850][180]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-15.00.04:850][180]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-15.00.04:850][180]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-15.00.04:850][180]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-15.00.04:850][180]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-15.00.04:852][180]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-15.00.04:871][180]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.17-15.00.04:871][180]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-15.00.04:871][180]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-15.00.04:871][180]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-15.00.04:872][180]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.11.17-15.00.04:872][180]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.11.17-15.00.04:873][180]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.11.17-15.00.04:873][180]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.11.17-15.00.04:873][180]LogInit: FAudioDevice initialized with ID 6.
+[2023.11.17-15.00.04:873][180]LogAudio: Display: Audio Device (ID: 6) registered with world 'MAP_Debug'.
+[2023.11.17-15.00.04:873][180]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.11.17-15.00.04:875][180]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.17-15.00.04:877][180]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2023.11.17-16.00.04
+[2023.11.17-15.00.04:877][180]LogWorld: Bringing up level for play took: 0.000470
+[2023.11.17-15.00.04:878][180]PIE: Server logged in
+[2023.11.17-15.00.04:879][180]PIE: Play in editor total start time 0,107 seconds.
+[2023.11.17-15.00.07:987][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-15.00.07:987][511]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.11.17-15.00.07:987][511]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-15.00.07:988][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-15.00.07:990][511]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-15.00.07:994][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-15.00.08:007][511]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.17-15.00.08:007][511]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.11.17-15.00.08:007][511]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.11.17-15.00.08:008][511]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.11.17-15.00.08:011][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-15.00.08:013][511]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.11.17-15.00.08:067][513]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.11.17-15.00.31:697][297]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.00.31:726][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-15.00.31:732][297]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-15.00.31:732][297]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_King95C9F698408FA6D6D33646AA2894EE9F.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-15.00.31:737][297]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 868 ms)
+[2023.11.17-15.00.31:738][297]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-15.00.31:738][297]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-15.00.48:349][238]BlueprintLog: New page: Compile ABP_King
+[2023.11.17-15.00.48:367][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.11.17-15.00.49:086][319]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.00.49:107][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-15.00.49:114][319]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-15.00.49:114][319]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_KingA0D49B5B484929323349729825D4AFA7.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-15.00.49:121][319]LogFileHelpers: InternalPromptForCheckoutAndSave took 34 ms (total: 903 ms)
+[2023.11.17-15.00.49:122][319]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-15.00.49:122][319]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-15.00.51:437][569]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-15.00.51:441][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-15.00.51:441][569]PIE: New page: PIE session: MAP_Debug (17 Nov 2023, 17.00.51)
+[2023.11.17-15.00.51:466][569]LogPlayLevel: Display: Creating online subsystem for client :Context_10
+[2023.11.17-15.00.51:469][569]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2023.11.17-15.00.51:480][570]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.11.17-15.00.51:481][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001398s)
+[2023.11.17-15.00.51:481][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001428s)
+[2023.11.17-15.00.51:492][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.11.17-15.00.51:494][570]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-15.00.51:495][570]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-15.00.51:495][570]LogAIModule: Creating AISystem for world MAP_Debug
+[2023.11.17-15.00.51:495][570]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2023.11.17-15.00.51:495][570]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.11.17-15.00.51:495][570]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-15.00.51:495][570]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-15.00.51:495][570]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-15.00.51:495][570]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-15.00.51:495][570]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-15.00.51:495][570]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.17-15.00.51:495][570]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-15.00.51:495][570]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-15.00.51:496][570]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-15.00.51:496][570]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-15.00.51:496][570]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-15.00.51:497][570]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-15.00.51:514][570]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.17-15.00.51:515][570]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-15.00.51:515][570]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-15.00.51:515][570]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-15.00.51:517][570]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.11.17-15.00.51:517][570]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.11.17-15.00.51:517][570]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.11.17-15.00.51:517][570]LogInit: FAudioDevice initialized with ID 7.
+[2023.11.17-15.00.51:517][570]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.11.17-15.00.51:517][570]LogAudio: Display: Audio Device (ID: 7) registered with world 'MAP_Debug'.
+[2023.11.17-15.00.51:517][570]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.11.17-15.00.51:520][570]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.17-15.00.51:520][570]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2023.11.17-16.00.51
+[2023.11.17-15.00.51:520][570]LogWorld: Bringing up level for play took: 0.000454
+[2023.11.17-15.00.51:522][570]PIE: Server logged in
+[2023.11.17-15.00.51:522][570]PIE: Play in editor total start time 0,081 seconds.
+[2023.11.17-15.00.56:857][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-15.00.56:857][146]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.11.17-15.00.56:857][146]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-15.00.56:857][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-15.00.56:860][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-15.00.56:863][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-15.00.56:875][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-15.00.56:875][146]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.11.17-15.00.56:875][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.11.17-15.00.56:876][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.11.17-15.00.56:881][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.11.17-15.00.56:939][148]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.11.17-15.01.17:417][119]LogContentBrowser: Attempting asset rename: NewPaperZDAnimSequence -> JumpRise
+[2023.11.17-15.01.17:440][119]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.01.17:471][119]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/AnimSequences/JumpRise
+[2023.11.17-15.01.17:471][119]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/JumpRise9431BEEF4303668C0528ECB1652FB970.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AnimSequences/JumpRise.uasset'
+[2023.11.17-15.01.17:476][119]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 939 ms)
+[2023.11.17-15.01.17:494][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.11.17-15.01.17:509][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.11.17-15.01.17:522][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.11.17-15.01.17:524][119]AssetCheck: New page: Asset Save: JumpRise
+[2023.11.17-15.01.17:524][119]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/Blueprints/Characters/King/AnimSequences/JumpRise.JumpRise
+[2023.11.17-15.01.35:223][231]LogContentBrowser: Attempting asset rename: NewPaperZDAnimSequence -> Fall
+[2023.11.17-15.01.35:245][231]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.01.35:276][231]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/AnimSequences/Fall
+[2023.11.17-15.01.35:276][231]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/FallE3CBB5274D5556BF6E2CB0B69518E4D3.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AnimSequences/Fall.uasset'
+[2023.11.17-15.01.35:282][231]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 976 ms)
+[2023.11.17-15.01.35:300][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.11.17-15.01.35:314][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.11.17-15.01.35:326][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.11.17-15.01.35:328][231]AssetCheck: New page: Asset Save: Fall
+[2023.11.17-15.01.35:328][231]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/Blueprints/Characters/King/AnimSequences/Fall.Fall
+[2023.11.17-15.01.46:461][558]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.01.46:491][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/AS_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AS_King.uasset" SILENT=true
+[2023.11.17-15.01.46:491][558]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/AS_King
+[2023.11.17-15.01.46:492][558]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/AS_King4431FDA541AA886C2152328FC9AADFE9.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AS_King.uasset'
+[2023.11.17-15.01.46:496][558]LogFileHelpers: InternalPromptForCheckoutAndSave took 34 ms (total: 1.01 sec)
+[2023.11.17-15.01.46:497][558]AssetCheck: New page: Asset Save: AS_King
+[2023.11.17-15.01.46:497][558]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimationSource_Flipbook /Game/Blueprints/Characters/King/AS_King.AS_King
+[2023.11.17-15.02.18:323][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.11.17-15.02.18:325][642]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Debug' took 0.014
+[2023.11.17-15.02.18:325][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/King/AnimSequences/JumpRise] ([1] browsable assets)...
+[2023.11.17-15.02.18:325][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/King/AnimSequences/JumpRise]
+[2023.11.17-15.02.18:325][642]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Characters/King/AnimSequences/JumpRise_Auto4
+[2023.11.17-15.02.18:325][642]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/JumpRise_Auto477B8721F4781B0D987C1D793A97D7E0D.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Blueprints/Characters/King/AnimSequences/JumpRise_Auto4.uasset'
+[2023.11.17-15.02.18:327][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/King/AnimSequences/Fall] ([1] browsable assets)...
+[2023.11.17-15.02.18:327][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/King/AnimSequences/Fall]
+[2023.11.17-15.02.18:327][642]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Characters/King/AnimSequences/Fall_Auto4
+[2023.11.17-15.02.18:327][642]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Fall_Auto4DC060D18427C9676356FEA8B20B4F20C.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Blueprints/Characters/King/AnimSequences/Fall_Auto4.uasset'
+[2023.11.17-15.02.18:327][642]LogFileHelpers: Auto-saving content packages took 0.002
+[2023.11.17-15.04.42:772][593]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.04.42:806][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-15.04.42:815][593]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-15.04.42:815][593]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_King6CA7E9EB46272C2B4FCA71B5A2F0CB7E.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-15.04.42:821][593]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 1.05 sec)
+[2023.11.17-15.04.42:823][593]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-15.04.42:823][593]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-15.05.17:457][667]BlueprintLog: New page: Compile ABP_King
+[2023.11.17-15.05.17:477][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.11.17-15.05.17:969][721]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.05.18:000][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-15.05.18:009][721]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-15.05.18:009][721]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_King540CDF2148BAAA921A09DC8A9DA2BC77.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-15.05.18:016][721]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 1.10 sec)
+[2023.11.17-15.05.18:017][721]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-15.05.18:017][721]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-15.05.40:122][345]BlueprintLog: New page: Compile ABP_King
+[2023.11.17-15.05.40:141][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.11.17-15.05.40:643][401]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.05.40:673][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-15.05.40:683][401]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-15.05.40:683][401]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_KingB3004C664329D24B6D846E86B914D678.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-15.05.40:688][401]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 1.15 sec)
+[2023.11.17-15.05.40:690][401]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-15.05.40:690][401]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-15.06.45:230][955]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.06.45:258][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-15.06.45:268][955]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-15.06.45:268][955]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_KingAD13889448175AFDF28A26B79276A4A5.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-15.06.45:274][955]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 1.19 sec)
+[2023.11.17-15.06.45:275][955]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-15.06.45:275][955]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-15.07.32:534][391]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.07.32:563][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-15.07.32:574][391]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-15.07.32:574][391]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_King2D6386654D044AAAA6B3BDB8695FA83C.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-15.07.32:580][391]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 1.24 sec)
+[2023.11.17-15.07.32:581][391]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-15.07.32:581][391]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-15.07.34:001][444]BlueprintLog: New page: Compile ABP_King
+[2023.11.17-15.07.34:022][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.11.17-15.07.36:579][514]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.07.36:604][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-15.07.36:615][514]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-15.07.36:615][514]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_KingAD3E7DC449748C56F60BDD958E1FF535.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-15.07.36:622][514]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 1.28 sec)
+[2023.11.17-15.07.36:623][514]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-15.07.36:623][514]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-15.07.50:006][735]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-15.07.50:011][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-15.07.50:011][735]PIE: New page: PIE session: MAP_Debug (17 Nov 2023, 17.07.50)
+[2023.11.17-15.07.50:038][735]LogPlayLevel: Display: Creating online subsystem for client :Context_11
+[2023.11.17-15.07.50:040][735]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.11.17-15.07.50:051][736]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.11.17-15.07.50:052][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001399s)
+[2023.11.17-15.07.50:052][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001430s)
+[2023.11.17-15.07.50:066][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.11.17-15.07.50:069][736]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-15.07.50:069][736]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-15.07.50:069][736]LogAIModule: Creating AISystem for world MAP_Debug
+[2023.11.17-15.07.50:069][736]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2023.11.17-15.07.50:069][736]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.11.17-15.07.50:069][736]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-15.07.50:069][736]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-15.07.50:069][736]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-15.07.50:069][736]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-15.07.50:069][736]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-15.07.50:069][736]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.17-15.07.50:069][736]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-15.07.50:069][736]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-15.07.50:070][736]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-15.07.50:070][736]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-15.07.50:070][736]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-15.07.50:071][736]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-15.07.50:090][736]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.17-15.07.50:090][736]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-15.07.50:090][736]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-15.07.50:090][736]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-15.07.50:091][736]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.11.17-15.07.50:091][736]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.11.17-15.07.50:092][736]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.11.17-15.07.50:092][736]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.11.17-15.07.50:092][736]LogInit: FAudioDevice initialized with ID 8.
+[2023.11.17-15.07.50:092][736]LogAudio: Display: Audio Device (ID: 8) registered with world 'MAP_Debug'.
+[2023.11.17-15.07.50:092][736]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2023.11.17-15.07.50:094][736]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.17-15.07.50:095][736]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2023.11.17-16.07.50
+[2023.11.17-15.07.50:095][736]LogWorld: Bringing up level for play took: 0.000479
+[2023.11.17-15.07.50:096][736]PIE: Server logged in
+[2023.11.17-15.07.50:096][736]PIE: Play in editor total start time 0,086 seconds.
+[2023.11.17-15.08.00:038][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-15.08.00:038][806]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.11.17-15.08.00:038][806]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-15.08.00:038][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-15.08.00:042][806]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-15.08.00:046][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-15.08.00:059][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-15.08.00:059][806]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2023.11.17-15.08.00:059][806]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.11.17-15.08.00:061][806]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.11.17-15.08.00:066][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.11.17-15.08.00:126][808]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.11.17-15.08.54:118][322]BlueprintLog: New page: Compile ABP_King
+[2023.11.17-15.08.54:139][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.11.17-15.08.57:749][518]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.08.57:778][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.17-15.08.57:792][518]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.17-15.08.57:792][518]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_King880503D5439C2486548446B9E78CA9E6.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.17-15.08.57:797][518]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 1.33 sec)
+[2023.11.17-15.08.57:799][518]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.17-15.08.57:799][518]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.17-15.09.00:824][851]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-15.09.00:829][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-15.09.00:829][851]PIE: New page: PIE session: MAP_Debug (17 Nov 2023, 17.09.00)
+[2023.11.17-15.09.00:829][851]LogPlayLevel: Display: Creating online subsystem for client :Context_12
+[2023.11.17-15.09.00:830][851]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2023.11.17-15.09.00:842][852]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.11.17-15.09.00:843][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001339s)
+[2023.11.17-15.09.00:843][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001370s)
+[2023.11.17-15.09.00:857][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.11.17-15.09.00:859][852]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-15.09.00:859][852]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-15.09.00:860][852]LogAIModule: Creating AISystem for world MAP_Debug
+[2023.11.17-15.09.00:860][852]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2023.11.17-15.09.00:860][852]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.11.17-15.09.00:860][852]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-15.09.00:860][852]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-15.09.00:860][852]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-15.09.00:860][852]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-15.09.00:860][852]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-15.09.00:860][852]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.17-15.09.00:860][852]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-15.09.00:860][852]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-15.09.00:860][852]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-15.09.00:860][852]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-15.09.00:860][852]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-15.09.00:862][852]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-15.09.00:880][852]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.17-15.09.00:880][852]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-15.09.00:880][852]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-15.09.00:880][852]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-15.09.00:881][852]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.11.17-15.09.00:881][852]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.11.17-15.09.00:882][852]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.11.17-15.09.00:882][852]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.11.17-15.09.00:882][852]LogInit: FAudioDevice initialized with ID 9.
+[2023.11.17-15.09.00:882][852]LogAudio: Display: Audio Device (ID: 9) registered with world 'MAP_Debug'.
+[2023.11.17-15.09.00:882][852]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2023.11.17-15.09.00:885][852]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.17-15.09.00:885][852]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2023.11.17-16.09.00
+[2023.11.17-15.09.00:885][852]LogWorld: Bringing up level for play took: 0.000475
+[2023.11.17-15.09.00:886][852]PIE: Server logged in
+[2023.11.17-15.09.00:887][852]PIE: Play in editor total start time 0,059 seconds.
+[2023.11.17-15.09.24:177][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-15.09.24:177][359]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.11.17-15.09.24:177][359]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-15.09.24:177][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-15.09.24:180][359]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-15.09.24:183][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-15.09.24:196][359]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.17-15.09.24:196][359]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2023.11.17-15.09.24:196][359]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.11.17-15.09.24:197][359]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.11.17-15.09.24:200][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-15.09.24:202][359]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.11.17-15.09.24:259][361]LogPlayLevel: Display: Destroying online subsystem :Context_12

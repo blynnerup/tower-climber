@@ -150,6 +150,9 @@
 				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Sounds/PlayerDefeated/S_PlayerDefeated_Cue.uasset",
 				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Sounds/Footsteps/S_Step_1_Cue.uasset",
 				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Sounds/Footsteps/S_Step_2_Cue.uasset",
+				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset",
+				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AnimSequences/JumpRise.uasset",
+				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AnimSequences/Fall.uasset",
 				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/BP_PlatformerChar.uasset",
 				"D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/BP_King.uasset"
 			]
