@@ -2083,3 +2083,45 @@ FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\So
 [2023.11.17-15.09.24:200][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.11.17-15.09.24:202][359]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
 [2023.11.17-15.09.24:259][361]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.11.17-15.34.10:958][373]LogAssetEditorSubsystem: Opening Asset editor for PaperTileSet /Game/PaperAssets/TileSets/Terrain_TileSet.Terrain_TileSet
+[2023.11.17-15.34.10:979][373]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-15.34.10:979][373]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-15.34.11:088][373]LogViewport: Scene viewport resized to 1528x1229, mode Windowed.
+[2023.11.17-15.34.11:095][373]LogViewport: Scene viewport resized to 1019x599, mode Windowed.
+[2023.11.17-15.35.20:586][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.11.17-15.35.20:588][661]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Debug' took 0.017
+[2023.11.17-15.35.20:588][661]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/TileSets/Terrain_TileSet] ([1] browsable assets)...
+[2023.11.17-15.35.20:590][661]OBJ SavePackage:     Rendered thumbnail for [PaperTileSet /Game/PaperAssets/TileSets/Terrain_TileSet.Terrain_TileSet]
+[2023.11.17-15.35.20:590][661]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/TileSets/Terrain_TileSet]
+[2023.11.17-15.35.20:618][661]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/TileSets/Terrain_TileSet_Auto5
+[2023.11.17-15.35.20:618][661]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Terrain_TileSet_Auto53D0C6D964110C59659A02696AF704680.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/PaperAssets/TileSets/Terrain_TileSet_Auto5.uasset'
+[2023.11.17-15.35.20:618][661]LogFileHelpers: Auto-saving content packages took 0.031
+[2023.11.17-15.38.14:626][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.38.14:655][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/TileSets/Terrain_TileSet" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Terrain_TileSet.uasset" SILENT=true
+[2023.11.17-15.38.14:670][ 17]LogSavePackage: Moving output files for package: /Game/PaperAssets/TileSets/Terrain_TileSet
+[2023.11.17-15.38.14:670][ 17]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Terrain_TileSet54DCB3904F0B2B019272E5A01F836011.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Terrain_TileSet.uasset'
+[2023.11.17-15.38.14:676][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 1.38 sec)
+[2023.11.17-15.38.14:677][ 17]AssetCheck: New page: Asset Save: Terrain_TileSet
+[2023.11.17-15.38.14:677][ 17]LogContentValidation: Display: Validating /Script/Paper2D.PaperTileSet /Game/PaperAssets/TileSets/Terrain_TileSet.Terrain_TileSet
+[2023.11.17-15.38.20:489][598]LogAssetEditorSubsystem: Opening Asset editor for PaperTileSet /Game/PaperAssets/TileSets/Decorations_TileSet.Decorations_TileSet
+[2023.11.17-15.38.20:492][598]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-15.38.20:492][598]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-15.38.20:542][598]LogViewport: Scene viewport resized to 1528x1229, mode Windowed.
+[2023.11.17-15.38.20:554][598]LogViewport: Scene viewport resized to 1019x599, mode Windowed.
+[2023.11.17-15.39.03:295][496]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.39.03:315][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/TileSets/Decorations_TileSet" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Decorations_TileSet.uasset" SILENT=true
+[2023.11.17-15.39.03:318][496]LogSavePackage: Moving output files for package: /Game/PaperAssets/TileSets/Decorations_TileSet
+[2023.11.17-15.39.03:318][496]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Decorations_TileSetF1A7327948809F63F9BE12BAD12FDBB5.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Decorations_TileSet.uasset'
+[2023.11.17-15.39.03:322][496]LogFileHelpers: InternalPromptForCheckoutAndSave took 26 ms (total: 1.41 sec)
+[2023.11.17-15.39.03:322][496]AssetCheck: New page: Asset Save: Decorations_TileSet
+[2023.11.17-15.39.03:322][496]LogContentValidation: Display: Validating /Script/Paper2D.PaperTileSet /Game/PaperAssets/TileSets/Decorations_TileSet.Decorations_TileSet
+[2023.11.17-15.39.18:050][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.11.17-15.39.18:053][750]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-15.39.18:086][750]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/AnimSequences/JumpRise
+[2023.11.17-15.39.18:086][750]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/JumpRise9D5E8B494C39D80E89FDE2BA60C938AB.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AnimSequences/JumpRise.uasset'
+[2023.11.17-15.39.18:087][750]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/AnimSequences/Fall
+[2023.11.17-15.39.18:087][750]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/FallC6EBD36D42ADF6E1ABDDFBB7D5846C46.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AnimSequences/Fall.uasset'
+[2023.11.17-15.39.18:092][750]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 1.44 sec)
+[2023.11.17-15.39.18:094][750]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.17-15.39.18:094][750]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/Blueprints/Characters/King/AnimSequences/JumpRise.JumpRise
+[2023.11.17-15.39.18:094][750]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/Blueprints/Characters/King/AnimSequences/Fall.Fall
