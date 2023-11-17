@@ -2125,3 +2125,403 @@ FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\So
 [2023.11.17-15.39.18:094][750]AssetCheck: New page: Asset Save: multiple assets
 [2023.11.17-15.39.18:094][750]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/Blueprints/Characters/King/AnimSequences/JumpRise.JumpRise
 [2023.11.17-15.39.18:094][750]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/Blueprints/Characters/King/AnimSequences/Fall.Fall
+[2023.11.17-15.39.39:731][507]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-15.39.39:731][507]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-15.39.40:698][617]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-15.39.40:698][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-15.41.40:116][ 16]LogContentBrowser: Deferred new asset file creation: Terrain_TileMap
+[2023.11.17-15.41.40:127][ 16]LogContentBrowser: Creating deferred item: Terrain_TileMap
+[2023.11.17-15.41.40:134][ 17]LogContentBrowser: Renaming the item being created (Deferred Item: Terrain_TileMap).
+[2023.11.17-15.41.44:046][422]LogContentBrowser: Attempting asset rename: Terrain_TileMap -> Terrain_TileMap
+[2023.11.17-15.41.44:057][422]LogContentBrowser: End creating deferred item Terrain_TileMap
+[2023.11.17-15.41.45:426][563]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-15.41.45:428][563]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-15.41.45:428][563]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-15.41.45:501][563]LogViewport: Scene viewport resized to 575x1144, mode Windowed.
+[2023.11.17-15.41.45:511][563]LogViewport: Scene viewport resized to 1564x1254, mode Windowed.
+[2023.11.17-15.42.03:503][514]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-15.42.03:503][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-15.45.21:017][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.11.17-15.45.21:018][731]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Debug' took 0.021
+[2023.11.17-15.45.21:020][731]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/TileSets/Terrain_TileMap] ([1] browsable assets)...
+[2023.11.17-15.45.21:020][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/TileSets/Terrain_TileMap]
+[2023.11.17-15.45.21:020][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/TileSets/Terrain_TileMap_Auto6
+[2023.11.17-15.45.21:020][731]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Terrain_TileMap_Auto693316F7A441F36BF050DD69D13F24273.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/PaperAssets/TileSets/Terrain_TileMap_Auto6.uasset'
+[2023.11.17-15.45.21:022][731]LogFileHelpers: Auto-saving content packages took 0.003
+[2023.11.17-15.48.21:995][275]LogDerivedDataCache: C:/Users/Brian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.027 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 793 files in 1281 folders with total size 4 MiB.
+[2023.11.17-15.52.30:734][227]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-15.52.30:735][227]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-15.52.30:735][227]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-15.52.30:799][227]LogViewport: Scene viewport resized to 575x1144, mode Windowed.
+[2023.11.17-15.52.30:810][227]LogViewport: Scene viewport resized to 1564x1254, mode Windowed.
+[2023.11.17-15.52.33:198][499]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-15.52.33:198][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-15.52.36:324][848]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-15.52.36:324][848]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-15.52.36:324][848]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-15.52.36:384][848]LogViewport: Scene viewport resized to 575x1144, mode Windowed.
+[2023.11.17-15.52.36:394][848]LogViewport: Scene viewport resized to 1564x1254, mode Windowed.
+[2023.11.17-15.55.21:549][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.11.17-15.55.21:551][829]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Debug' took 0.020
+[2023.11.17-15.55.21:551][829]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/TileSets/Terrain_TileMap] ([1] browsable assets)...
+[2023.11.17-15.55.21:551][829]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/TileSets/Terrain_TileMap]
+[2023.11.17-15.55.21:552][829]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/TileSets/Terrain_TileMap_Auto7
+[2023.11.17-15.55.21:552][829]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Terrain_TileMap_Auto70799E0604E6AA2C893F376A9B2C9CE9D.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/PaperAssets/TileSets/Terrain_TileMap_Auto7.uasset'
+[2023.11.17-15.55.21:552][829]LogFileHelpers: Auto-saving content packages took 0.001
+[2023.11.17-16.48.22:013][667]LogDerivedDataCache: C:/Users/Brian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.043 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 793 files in 1281 folders with total size 4 MiB.
+[2023.11.17-17.48.21:035][462]LogDerivedDataCache: C:/Users/Brian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.064 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 793 files in 1281 folders with total size 4 MiB.
+[2023.11.17-18.30.00:364][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.11.17-18.30.00:366][935]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Debug' took 0.018
+[2023.11.17-18.30.00:366][935]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/TileSets/Terrain_TileMap] ([1] browsable assets)...
+[2023.11.17-18.30.00:366][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/TileSets/Terrain_TileMap]
+[2023.11.17-18.30.00:376][935]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/TileSets/Terrain_TileMap_Auto8
+[2023.11.17-18.30.00:376][935]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Terrain_TileMap_Auto8709012964D32A8946FC03DAB4967B697.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/PaperAssets/TileSets/Terrain_TileMap_Auto8.uasset'
+[2023.11.17-18.30.00:377][935]LogFileHelpers: Auto-saving content packages took 0.011
+[2023.11.17-18.32.40:039][796]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-18.32.40:069][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/TileSets/Terrain_TileMap" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Terrain_TileMap.uasset" SILENT=true
+[2023.11.17-18.32.40:079][796]LogSavePackage: Moving output files for package: /Game/PaperAssets/TileSets/Terrain_TileMap
+[2023.11.17-18.32.40:079][796]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Terrain_TileMapF90BAFBC48981BB7ECA78FB6908E01F0.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Terrain_TileMap.uasset'
+[2023.11.17-18.32.40:085][796]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 1.49 sec)
+[2023.11.17-18.32.40:086][796]AssetCheck: New page: Asset Save: Terrain_TileMap
+[2023.11.17-18.32.40:086][796]LogContentValidation: Display: Validating /Script/Paper2D.PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-18.32.50:232][658]LogSlate: Window 'New Level' being destroyed
+[2023.11.17-18.32.50:236][658]LightingResults: New page: Lighting Build
+[2023.11.17-18.32.50:281][658]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-18.32.50:281][658]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-18.32.50:282][658]MapCheck: New page: Map Check
+[2023.11.17-18.32.50:282][658]LightingResults: New page: Lighting Build
+[2023.11.17-18.32.50:308][658]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.17-18.32.50:313][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.11.17-18.32.50:333][658]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-18.32.50:333][658]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-18.32.50:333][658]LogAIModule: Creating AISystem for world Untitled
+[2023.11.17-18.32.50:334][658]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.11.17-18.32.50:359][658]LoadErrors: New page: New Map
+[2023.11.17-18.33.03:696][462]LogSlate: Window 'Save Level As' being destroyed
+[2023.11.17-18.33.03:775][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Tower" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Maps/MAP_Tower.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.17-18.33.03:799][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.11.17-18.33.03:804][462]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Tower
+[2023.11.17-18.33.03:804][462]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/MAP_TowerA61E90654B731EC87F079D9A4845AAF6.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Maps/MAP_Tower.umap'
+[2023.11.17-18.33.03:816][462]LogFileHelpers: Saving map 'MAP_Tower' took 0.111
+[2023.11.17-18.33.03:816][462]Cmd: MAP LOAD FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Maps/MAP_Tower.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.11.17-18.33.03:816][462]LightingResults: New page: Lighting Build
+[2023.11.17-18.33.03:816][462]LoadErrors: New page: Loading map: MAP_Tower.umap
+[2023.11.17-18.33.03:871][462]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-18.33.03:871][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-18.33.03:871][462]MapCheck: New page: Map Check
+[2023.11.17-18.33.03:871][462]LightingResults: New page: Lighting Build
+[2023.11.17-18.33.03:882][462]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.17-18.33.03:884][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.11.17-18.33.03:887][462]LogAudio: Display: Audio Device (ID: 1) registered with world 'MAP_Tower'.
+[2023.11.17-18.33.03:887][462]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-18.33.03:887][462]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-18.33.03:887][462]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.17-18.33.03:895][462]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.11.17-18.33.03:912][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.11.17-18.33.03:915][462]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.11.17-18.33.03:915][462]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,062ms to complete.
+[2023.11.17-18.33.03:931][462]AssetCheck: New page: Asset Save: MAP_Tower
+[2023.11.17-18.33.03:931][462]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_Tower.MAP_Tower
+[2023.11.17-18.33.15:915][458]LogActorFactory: Actor Factory attempting to spawn PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-18.33.15:919][458]LogActorFactory: Actor Factory attempting to spawn PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-18.33.15:919][458]LogActorFactory: Actor Factory spawned PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap as actor: PaperTileMapActor /Game/Maps/MAP_Tower.MAP_Tower:PersistentLevel.PaperTileMapActor_0
+[2023.11.17-18.33.15:920][458]LogActorFactory: Actor Factory spawned PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap as actor: PaperTileMapActor /Game/Maps/MAP_Tower.MAP_Tower:PersistentLevel.PaperTileMapActor_0
+[2023.11.17-18.33.15:920][458]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.11.17-18.33.16:880][572]LogActorFactory: Actor Factory attempting to spawn PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-18.33.16:880][572]LogActorFactory: Actor Factory attempting to spawn PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-18.33.16:880][572]LogActorFactory: Actor Factory spawned PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap as actor: PaperTileMapActor /Game/Maps/MAP_Tower.MAP_Tower:PersistentLevel.PaperTileMapActor_1
+[2023.11.17-18.33.16:880][572]LogActorFactory: Actor Factory spawned PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap as actor: PaperTileMapActor /Game/Maps/MAP_Tower.MAP_Tower:PersistentLevel.PaperTileMapActor_1
+[2023.11.17-18.33.17:183][607]LogActorFactory: Actor Factory attempting to spawn PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-18.33.17:183][607]LogActorFactory: Actor Factory attempting to spawn PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-18.33.17:184][607]LogActorFactory: Actor Factory spawned PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap as actor: PaperTileMapActor /Game/Maps/MAP_Tower.MAP_Tower:PersistentLevel.PaperTileMapActor_2
+[2023.11.17-18.33.17:185][607]LogActorFactory: Actor Factory spawned PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap as actor: PaperTileMapActor /Game/Maps/MAP_Tower.MAP_Tower:PersistentLevel.PaperTileMapActor_2
+[2023.11.17-18.35.17:603][245]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.11.17-18.35.17:603][245]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.11.17-18.35.17:605][245]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Maps/MAP_Tower.MAP_Tower:PersistentLevel.PlayerStart_0
+[2023.11.17-18.35.17:605][245]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.11.17-18.35.17:605][245]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Maps/MAP_Tower.MAP_Tower:PersistentLevel.PlayerStart_0
+[2023.11.17-18.35.17:605][245]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.11.17-18.35.17:622][245]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.11.17-18.35.30:137][690]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.11.17-18.35.34:351][191]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.11.17-18.35.40:666][916]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.11.17-18.35.45:794][502]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.11.17-18.35.51:327][153]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-18.35.51:332][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-18.35.51:332][153]PIE: New page: PIE session: MAP_Tower (17 Nov 2023, 20.35.51)
+[2023.11.17-18.35.51:377][153]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2023.11.17-18.35.51:380][153]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.11.17-18.35.51:388][154]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.17-18.35.51:388][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000840s)
+[2023.11.17-18.35.51:388][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.000906s)
+[2023.11.17-18.35.51:401][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.11.17-18.35.51:402][154]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-18.35.51:403][154]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-18.35.51:403][154]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.17-18.35.51:403][154]LogPlayLevel: PIE: World Init took: (0.001059s)
+[2023.11.17-18.35.51:403][154]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.11.17-18.35.51:403][154]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-18.35.51:403][154]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-18.35.51:403][154]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-18.35.51:403][154]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-18.35.51:403][154]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-18.35.51:404][154]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.17-18.35.51:404][154]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-18.35.51:404][154]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-18.35.51:404][154]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-18.35.51:404][154]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-18.35.51:404][154]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-18.35.51:405][154]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-18.35.51:424][154]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.17-18.35.51:424][154]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-18.35.51:425][154]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-18.35.51:425][154]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-18.35.51:425][154]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.11.17-18.35.51:425][154]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.11.17-18.35.51:427][154]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.11.17-18.35.51:427][154]LogInit: FAudioDevice initialized with ID 10.
+[2023.11.17-18.35.51:427][154]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.11.17-18.35.51:427][154]LogAudio: Display: Audio Device (ID: 10) registered with world 'MAP_Tower'.
+[2023.11.17-18.35.51:427][154]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2023.11.17-18.35.51:432][154]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.17-18.35.51:433][154]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.17-19.35.51
+[2023.11.17-18.35.51:433][154]LogWorld: Bringing up level for play took: 0.000524
+[2023.11.17-18.35.51:436][154]PIE: Server logged in
+[2023.11.17-18.35.51:436][154]PIE: Play in editor total start time 0,104 seconds.
+[2023.11.17-18.35.55:798][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-18.35.55:798][663]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.17-18.35.55:798][663]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-18.35.55:798][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-18.35.55:801][663]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-18.35.55:804][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-18.35.55:817][663]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.17-18.35.55:817][663]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2023.11.17-18.35.55:817][663]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.11.17-18.35.55:818][663]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.11.17-18.35.55:821][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-18.35.55:824][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.11.17-18.35.55:867][664]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.11.17-18.36.08:807][795]LogEditorViewport: Clicking Background
+[2023.11.17-18.36.08:921][807]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-18.36.08:939][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Tower" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Maps/MAP_Tower.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.17-18.36.08:962][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.11.17-18.36.08:966][807]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Tower
+[2023.11.17-18.36.08:966][807]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/MAP_TowerD4572B7F4744F256E1DC2099F5D3ECBE.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Maps/MAP_Tower.umap'
+[2023.11.17-18.36.08:972][807]LogFileHelpers: Saving map 'MAP_Tower' took 0.033
+[2023.11.17-18.36.08:977][807]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 1.55 sec)
+[2023.11.17-18.36.08:977][807]AssetCheck: New page: Asset Save: MAP_Tower
+[2023.11.17-18.36.08:977][807]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_Tower.MAP_Tower
+[2023.11.17-18.36.17:557][964]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.17-18.36.17:567][964]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=10496
+[2023.11.17-18.36.17:892][965]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{77698abf-0ad9-462f-a63f-8bdf05dc3bc3}, Name=Headset Earphone (SteelSeries Arctis 9 Chat)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=10.36
+[2023.11.17-18.36.17:892][965]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.17-18.36.17:893][965]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.17-19.17.59:348][976]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [2499 Seconds] waiting for h/w. InstanceID=1
+[2023.11.17-19.18.00:126][976]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=10496
+[2023.11.17-19.18.00:135][977]LogHttp: Warning: 00000717965C8700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.11.17-19.18.00:135][977]LogHttp: Warning: 00000717965C8700: libcurl info message cache 0 (Too old connection (2544 seconds idle), disconnect it)
+[2023.11.17-19.18.00:135][977]LogHttp: Warning: 00000717965C8700: libcurl info message cache 1 (Connection 9 seems to be dead)
+[2023.11.17-19.18.00:135][977]LogHttp: Warning: 00000717965C8700: libcurl info message cache 2 (Closing connection)
+[2023.11.17-19.18.00:135][977]LogHttp: Warning: 00000717965C8700: libcurl info message cache 3 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.11.17-19.18.00:135][977]LogHttp: Warning: 00000717965C8700: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.11.17-19.18.00:135][977]LogHttp: Warning: 00000717965C8700: libcurl info message cache 5 (Closing connection)
+[2023.11.17-19.18.00:135][977]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7ED5710C-4FB5-BBA9-AEA9-1A968D76988C%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=0455ccd74c3870fed50d7c926becdb8f%7Ce554c900eec14f3caf3831442f22081e%7Ccb3cd3e4-94dd-4934-aafc-6c2de5ab699f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.17-19.18.00:421][977]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{77698abf-0ad9-462f-a63f-8bdf05dc3bc3}, Name=Headset Earphone (SteelSeries Arctis 9 Chat)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=92.42
+[2023.11.17-19.18.00:421][977]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.17-19.18.00:423][977]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.17-19.18.05:425][993]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.17-19.18.05:752][993]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=10496
+[2023.11.17-19.18.06:088][994]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{77698abf-0ad9-462f-a63f-8bdf05dc3bc3}, Name=Headset Earphone (SteelSeries Arctis 9 Chat)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=13.86
+[2023.11.17-19.18.06:088][994]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.17-19.18.06:089][994]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.17-19.18.07:252][ 14]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (SteelSeries Arctis 9 Game), InstanceID=1
+[2023.11.17-19.18.07:256][ 15]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=10496
+[2023.11.17-19.18.07:268][ 16]LogAudioMixer: Error: XAudio2System->CreateMasteringVoice() -> 0x88960004: XAUDIO2_E_DEVICE_INVALIDATED (line: 345) with Args (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{ac5e69ae-249c-45c5-9dda-dc179bdc0955} Name=Headphones (SteelSeries Arctis 9 Game))
+[2023.11.17-19.18.07:325][ 23]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Steam Streaming Microphone), InstanceID=1
+[2023.11.17-19.18.07:359][ 27]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{56cee5cd-82ce-4149-8097-0ee4026ccc3e}, Name=Speakers (Steam Streaming Microphone)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=18.00
+[2023.11.17-19.18.07:359][ 27]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.17-19.18.07:361][ 27]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.17-19.18.07:790][ 78]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headset Earphone (SteelSeries Arctis 9 Chat), InstanceID=1
+[2023.11.17-19.18.07:797][ 79]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=10496
+[2023.11.17-19.18.07:899][ 91]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{77698abf-0ad9-462f-a63f-8bdf05dc3bc3}, Name=Headset Earphone (SteelSeries Arctis 9 Chat)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=94.57
+[2023.11.17-19.18.07:899][ 91]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.17-19.18.07:900][ 91]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.17-19.20.18:450][326]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-19.20.18:476][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/TileSets/Terrain_TileMap" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Terrain_TileMap.uasset" SILENT=true
+[2023.11.17-19.20.18:495][326]LogSavePackage: Moving output files for package: /Game/PaperAssets/TileSets/Terrain_TileMap
+[2023.11.17-19.20.18:495][326]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Terrain_TileMapC10E3D6F42FBE5E533E8438D369252F5.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Terrain_TileMap.uasset'
+[2023.11.17-19.20.18:501][326]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 1.60 sec)
+[2023.11.17-19.20.18:502][326]AssetCheck: New page: Asset Save: Terrain_TileMap
+[2023.11.17-19.20.18:502][326]LogContentValidation: Display: Validating /Script/Paper2D.PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-19.21.36:239][617]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-19.21.36:262][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/TileSets/Terrain_TileMap" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Terrain_TileMap.uasset" SILENT=true
+[2023.11.17-19.21.36:288][617]LogSavePackage: Moving output files for package: /Game/PaperAssets/TileSets/Terrain_TileMap
+[2023.11.17-19.21.36:288][617]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Terrain_TileMap81D9CDC5405C748157ECDF9AFB2173DE.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Terrain_TileMap.uasset'
+[2023.11.17-19.21.36:293][617]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 1.65 sec)
+[2023.11.17-19.21.36:293][617]AssetCheck: New page: Asset Save: Terrain_TileMap
+[2023.11.17-19.21.36:293][617]LogContentValidation: Display: Validating /Script/Paper2D.PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-19.21.36:835][682]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-19.21.36:865][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/TileSets/Terrain_TileMap" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Terrain_TileMap.uasset" SILENT=true
+[2023.11.17-19.21.36:892][682]LogSavePackage: Moving output files for package: /Game/PaperAssets/TileSets/Terrain_TileMap
+[2023.11.17-19.21.36:892][682]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Terrain_TileMapA3753BDD45169F2EFFAA9B993CBB136D.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Terrain_TileMap.uasset'
+[2023.11.17-19.21.36:897][682]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 1.71 sec)
+[2023.11.17-19.21.36:897][682]AssetCheck: New page: Asset Save: Terrain_TileMap
+[2023.11.17-19.21.36:897][682]LogContentValidation: Display: Validating /Script/Paper2D.PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-19.21.42:593][365]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-19.21.42:622][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/TileSets/Terrain_TileMap" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Terrain_TileMap.uasset" SILENT=true
+[2023.11.17-19.21.42:649][365]LogSavePackage: Moving output files for package: /Game/PaperAssets/TileSets/Terrain_TileMap
+[2023.11.17-19.21.42:649][365]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Terrain_TileMapEED36B754A4B3304EF837D967C14547E.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Terrain_TileMap.uasset'
+[2023.11.17-19.21.42:654][365]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 1.77 sec)
+[2023.11.17-19.21.42:655][365]AssetCheck: New page: Asset Save: Terrain_TileMap
+[2023.11.17-19.21.42:655][365]LogContentValidation: Display: Validating /Script/Paper2D.PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-19.22.05:327][748]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.11.17-19.22.06:698][910]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-19.22.06:701][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-19.22.06:701][910]PIE: New page: PIE session: MAP_Tower (17 Nov 2023, 21.22.06)
+[2023.11.17-19.22.06:724][910]LogPlayLevel: Display: Creating online subsystem for client :Context_19
+[2023.11.17-19.22.06:726][910]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.11.17-19.22.06:734][911]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.17-19.22.06:735][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001007s)
+[2023.11.17-19.22.06:735][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001043s)
+[2023.11.17-19.22.06:748][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.11.17-19.22.06:749][911]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-19.22.06:750][911]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-19.22.06:750][911]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.17-19.22.06:751][911]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2023.11.17-19.22.06:751][911]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.11.17-19.22.06:751][911]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-19.22.06:751][911]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-19.22.06:751][911]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-19.22.06:751][911]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-19.22.06:751][911]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-19.22.06:751][911]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.17-19.22.06:751][911]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-19.22.06:751][911]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-19.22.06:751][911]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-19.22.06:751][911]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-19.22.06:751][911]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-19.22.06:752][911]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-19.22.06:771][911]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.17-19.22.06:771][911]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-19.22.06:771][911]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-19.22.06:771][911]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-19.22.06:772][911]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.11.17-19.22.06:772][911]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.11.17-19.22.06:773][911]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.11.17-19.22.06:773][911]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.11.17-19.22.06:773][911]LogInit: FAudioDevice initialized with ID 11.
+[2023.11.17-19.22.06:773][911]LogAudio: Display: Audio Device (ID: 11) registered with world 'MAP_Tower'.
+[2023.11.17-19.22.06:773][911]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2023.11.17-19.22.06:775][911]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.17-19.22.06:776][911]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.17-20.22.06
+[2023.11.17-19.22.06:776][911]LogWorld: Bringing up level for play took: 0.000815
+[2023.11.17-19.22.06:778][911]PIE: Server logged in
+[2023.11.17-19.22.06:779][911]PIE: Play in editor total start time 0,077 seconds.
+[2023.11.17-19.22.13:424][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-19.22.13:424][696]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.17-19.22.13:424][696]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-19.22.13:424][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-19.22.13:428][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-19.22.13:431][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-19.22.13:443][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-19.22.13:443][696]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2023.11.17-19.22.13:443][696]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.11.17-19.22.13:444][696]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.11.17-19.22.13:450][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.11.17-19.22.13:524][698]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.11.17-19.22.18:472][282]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-19.22.18:490][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/TileSets/Terrain_TileMap" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Terrain_TileMap.uasset" SILENT=true
+[2023.11.17-19.22.18:515][282]LogSavePackage: Moving output files for package: /Game/PaperAssets/TileSets/Terrain_TileMap
+[2023.11.17-19.22.18:516][282]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Terrain_TileMapACBB83A04F06D82104B8C58DC2F09ADD.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/Terrain_TileMap.uasset'
+[2023.11.17-19.22.18:521][282]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 1.82 sec)
+[2023.11.17-19.22.18:521][282]AssetCheck: New page: Asset Save: Terrain_TileMap
+[2023.11.17-19.22.18:522][282]LogContentValidation: Display: Validating /Script/Paper2D.PaperTileMap /Game/PaperAssets/TileSets/Terrain_TileMap.Terrain_TileMap
+[2023.11.17-19.22.42:493][618]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-19.22.42:518][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Tower" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Maps/MAP_Tower.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.17-19.22.42:541][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.11.17-19.22.42:546][618]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Tower
+[2023.11.17-19.22.42:546][618]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/MAP_Tower835CC3614929D53463FA06BFEA643A37.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Maps/MAP_Tower.umap'
+[2023.11.17-19.22.42:551][618]LogFileHelpers: Saving map 'MAP_Tower' took 0.033
+[2023.11.17-19.22.42:557][618]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 1.89 sec)
+[2023.11.17-19.22.42:558][618]AssetCheck: New page: Asset Save: MAP_Tower
+[2023.11.17-19.22.42:558][618]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_Tower.MAP_Tower
+[2023.11.17-19.22.45:693][992]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-19.22.45:696][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-19.22.45:696][992]PIE: New page: PIE session: MAP_Tower (17 Nov 2023, 21.22.45)
+[2023.11.17-19.22.45:724][992]LogPlayLevel: Display: Creating online subsystem for client :Context_20
+[2023.11.17-19.22.45:726][992]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.11.17-19.22.45:733][993]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.17-19.22.45:733][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000736s)
+[2023.11.17-19.22.45:733][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.000765s)
+[2023.11.17-19.22.45:748][993]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.11.17-19.22.45:749][993]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-19.22.45:749][993]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-19.22.45:750][993]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.17-19.22.45:750][993]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2023.11.17-19.22.45:750][993]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.11.17-19.22.45:750][993]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-19.22.45:750][993]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-19.22.45:750][993]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-19.22.45:750][993]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-19.22.45:750][993]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-19.22.45:750][993]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.17-19.22.45:750][993]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-19.22.45:750][993]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-19.22.45:750][993]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-19.22.45:750][993]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-19.22.45:750][993]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-19.22.45:752][993]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-19.22.45:769][993]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.17-19.22.45:770][993]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-19.22.45:770][993]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-19.22.45:770][993]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-19.22.45:770][993]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.11.17-19.22.45:770][993]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.11.17-19.22.45:771][993]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.11.17-19.22.45:771][993]LogInit: FAudioDevice initialized with ID 12.
+[2023.11.17-19.22.45:771][993]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.11.17-19.22.45:771][993]LogAudio: Display: Audio Device (ID: 12) registered with world 'MAP_Tower'.
+[2023.11.17-19.22.45:771][993]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2023.11.17-19.22.45:773][993]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.17-19.22.45:774][993]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.17-20.22.45
+[2023.11.17-19.22.45:774][993]LogWorld: Bringing up level for play took: 0.000592
+[2023.11.17-19.22.45:775][993]PIE: Server logged in
+[2023.11.17-19.22.45:775][993]PIE: Play in editor total start time 0,08 seconds.
+[2023.11.17-19.22.49:734][456]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-19.22.49:734][456]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.17-19.22.49:734][456]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-19.22.49:734][456]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-19.22.49:736][456]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-19.22.49:740][456]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-19.22.49:751][456]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-19.22.49:751][456]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2023.11.17-19.22.49:751][456]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.11.17-19.22.49:753][456]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.11.17-19.22.49:758][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.11.17-19.22.49:850][458]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.11.17-19.23.04:544][199]LogContentBrowser: Deferred new asset file creation: TerrainPadded
+[2023.11.17-19.23.04:560][199]LogContentBrowser: Creating deferred item: TerrainPadded
+[2023.11.17-19.23.04:568][200]LogContentBrowser: Renaming the item being created (Deferred Item: TerrainPadded).
+[2023.11.17-19.23.08:614][686]LogContentBrowser: Attempting asset rename: TerrainPadded -> TerrainPadded
+[2023.11.17-19.23.08:870][686]LogTexture: Display: Building textures: /Game/PaperAssets/TileSets/TerrainPadded.TerrainPadded (BGRA8, 1024x512 x1x1x1) (Required Memory Estimate: 15.395821 MB), EncodeSpeed: Fast
+[2023.11.17-19.23.08:871][686]LogContentBrowser: End creating deferred item TerrainPadded
+[2023.11.17-19.23.11:174][962]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-19.23.11:200][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/TileSets/TerrainPadded" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/TerrainPadded.uasset" SILENT=true
+[2023.11.17-19.23.11:221][962]LogSavePackage: Moving output files for package: /Game/PaperAssets/TileSets/TerrainPadded
+[2023.11.17-19.23.11:221][962]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/TerrainPadded30D315C04739AD8A989552842EA5B7DF.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/TerrainPadded.uasset'
+[2023.11.17-19.23.11:228][962]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 1.94 sec)
+[2023.11.17-19.23.11:229][962]AssetCheck: New page: Asset Save: TerrainPadded
+[2023.11.17-19.23.11:229][962]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/PaperAssets/TileSets/TerrainPadded.TerrainPadded
+[2023.11.17-19.23.19:989][  1]LogContentBrowser: Deferred new asset file creation: DecorationsPadded
+[2023.11.17-19.23.20:006][  1]LogContentBrowser: Creating deferred item: DecorationsPadded
+[2023.11.17-19.23.20:016][  2]LogContentBrowser: Renaming the item being created (Deferred Item: DecorationsPadded).
+[2023.11.17-19.23.21:968][237]LogContentBrowser: Attempting asset rename: DecorationsPadded -> DecorationsPadded
+[2023.11.17-19.23.21:982][237]LogTexture: Display: Building textures: /Game/PaperAssets/TileSets/DecorationsPadded.DecorationsPadded (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 1.97916 MB), EncodeSpeed: Fast
+[2023.11.17-19.23.21:983][237]LogContentBrowser: End creating deferred item DecorationsPadded
+[2023.11.17-19.23.23:162][378]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-19.23.23:193][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/TileSets/DecorationsPadded" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/DecorationsPadded.uasset" SILENT=true
+[2023.11.17-19.23.23:195][378]LogSavePackage: Moving output files for package: /Game/PaperAssets/TileSets/DecorationsPadded
+[2023.11.17-19.23.23:195][378]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/DecorationsPadded80887E734362DAE6A2687C9CEDC0403F.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/PaperAssets/TileSets/DecorationsPadded.uasset'
+[2023.11.17-19.23.23:200][378]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 1.98 sec)
+[2023.11.17-19.23.23:200][378]AssetCheck: New page: Asset Save: DecorationsPadded
+[2023.11.17-19.23.23:200][378]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/PaperAssets/TileSets/DecorationsPadded.DecorationsPadded
