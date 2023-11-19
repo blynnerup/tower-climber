@@ -1761,3 +1761,1564 @@ FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\So
 [2023.11.19-14.28.17:785][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.11.19-14.28.17:787][607]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
 [2023.11.19-14.28.17:832][612]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.11.19-14.39.01:325][239]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Characters/Pig/BP_Pig.BP_Pig_C
+[2023.11.19-14.39.01:332][239]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Characters/Pig/BP_Pig.BP_Pig_C
+[2023.11.19-14.39.01:334][239]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Characters/Pig/BP_Pig.BP_Pig as actor: BP_Pig_C /Game/Maps/MAP_Tower.MAP_Tower:PersistentLevel.BP_Pig_C_0
+[2023.11.19-14.39.01:335][239]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Characters/Pig/BP_Pig.BP_Pig as actor: BP_Pig_C /Game/Maps/MAP_Tower.MAP_Tower:PersistentLevel.BP_Pig_C_0
+[2023.11.19-14.39.01:338][239]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.11.19-14.39.01:734][283]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Characters/Pig/BP_Pig.BP_Pig_C
+[2023.11.19-14.39.01:734][283]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Characters/Pig/BP_Pig.BP_Pig_C
+[2023.11.19-14.39.01:736][283]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Characters/Pig/BP_Pig.BP_Pig as actor: BP_Pig_C /Game/Maps/MAP_Tower.MAP_Tower:PersistentLevel.BP_Pig_C_2
+[2023.11.19-14.39.01:737][283]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Characters/Pig/BP_Pig.BP_Pig as actor: BP_Pig_C /Game/Maps/MAP_Tower.MAP_Tower:PersistentLevel.BP_Pig_C_2
+[2023.11.19-14.39.01:766][283]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-14.39.24:540][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.19-14.39.24:540][369]PIE: New page: PIE session: MAP_Tower (19 Nov 2023, 16.39.24)
+[2023.11.19-14.39.24:540][369]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-14.39.24:542][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001636s)
+[2023.11.19-14.39.24:542][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001666s)
+[2023.11.19-14.39.24:556][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.11.19-14.39.24:559][369]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-14.39.24:559][369]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-14.39.24:559][369]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.19-14.39.24:559][369]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2023.11.19-14.39.24:560][369]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.11.19-14.39.24:560][369]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.19-14.39.24:560][369]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.19-14.39.24:560][369]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.19-14.39.24:560][369]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.19-14.39.24:560][369]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.19-14.39.24:560][369]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.19-14.39.24:560][369]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.19-14.39.24:560][369]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.19-14.39.24:560][369]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.19-14.39.24:560][369]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.19-14.39.24:560][369]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.19-14.39.24:562][369]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.19-14.39.24:581][369]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.19-14.39.24:581][369]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.19-14.39.24:581][369]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.19-14.39.24:581][369]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.19-14.39.24:581][369]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.11.19-14.39.24:582][369]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.11.19-14.39.24:583][369]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.11.19-14.39.24:583][369]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.11.19-14.39.24:583][369]LogInit: FAudioDevice initialized with ID 10.
+[2023.11.19-14.39.24:583][369]LogAudio: Display: Audio Device (ID: 10) registered with world 'MAP_Tower'.
+[2023.11.19-14.39.24:583][369]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2023.11.19-14.39.24:585][369]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.19-14.39.24:586][369]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.19-15.39.24
+[2023.11.19-14.39.24:586][369]LogWorld: Bringing up level for play took: 0.001173
+[2023.11.19-14.39.24:588][369]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.11.19-14.39.24:604][369]PIE: Server logged in
+[2023.11.19-14.39.24:605][369]PIE: Play in editor total start time 0,07 seconds.
+[2023.11.19-14.58.16:152][  6]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/BP_PlatformerChar.BP_PlatformerChar
+[2023.11.19-14.58.16:152][  6]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-14.58.16:152][  6]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-14.58.16:251][  6]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-14.58.17:732][175]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-14.58.17:732][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-14.58.17:755][175]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/BP_PlatformerChar.BP_PlatformerChar
+[2023.11.19-14.58.17:756][175]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-14.58.17:756][175]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-14.58.17:879][175]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-14.59.26:910][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-14.59.26:910][212]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-14.59.26:910][212]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-14.59.26:910][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-14.59.26:914][212]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.19-14.59.26:917][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-14.59.26:928][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-14.59.26:928][212]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2023.11.19-14.59.26:928][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.11.19-14.59.26:930][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.11.19-14.59.26:936][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.11.19-14.59.26:970][213]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-14.59.27:016][213]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.11.19-15.00.31:792][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.11.19-15.00.31:793][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Tower" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Maps/MAP_Tower_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.11.19-15.00.31:797][586]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/MAP_Tower_Auto2
+[2023.11.19-15.00.31:797][586]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/MAP_Tower_Auto226A8556A460860BE6A4C448896964641.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Maps/MAP_Tower_Auto2.umap'
+[2023.11.19-15.00.31:798][586]LogAssetRegistry: Warning: ScanPathsSynchronous: D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Maps/MAP_Tower_Auto2.umap is in the /Temp path, will not scan.
+[2023.11.19-15.00.31:798][586]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Maps/MAP_Tower_Auto2 is in the /Temp path, will not scan.
+[2023.11.19-15.00.31:798][586]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Maps/MAP_Tower_Auto2 is in the /Temp path, will not scan.
+[2023.11.19-15.00.31:798][586]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Tower' took 0.018
+[2023.11.19-15.00.31:798][586]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.018
+[2023.11.19-15.00.31:798][586]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/BP_PlatformerChar] ([2] browsable assets)...
+[2023.11.19-15.00.31:798][586]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/BP_PlatformerChar]
+[2023.11.19-15.00.31:801][586]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Characters/BP_PlatformerChar_Auto2
+[2023.11.19-15.00.31:801][586]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerChar_Auto2A5A586274A8AFE12974E09A26045E7A0.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Blueprints/Characters/BP_PlatformerChar_Auto2.uasset'
+[2023.11.19-15.00.31:802][586]LogFileHelpers: Auto-saving content packages took 0.003
+[2023.11.19-15.17.44:959][685]LogDerivedDataCache: C:/Users/Brian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.038 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 807 files in 1302 folders with total size 4 MiB.
+[2023.11.19-16.17.44:961][483]LogDerivedDataCache: C:/Users/Brian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.039 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 807 files in 1302 folders with total size 4 MiB.
+[2023.11.19-17.17.43:983][279]LogDerivedDataCache: C:/Users/Brian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.060 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 807 files in 1302 folders with total size 4 MiB.
+[2023.11.19-17.31.34:335][291]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-17.31.34:361][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Tower" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Maps/MAP_Tower.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.19-17.31.34:381][291]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.11.19-17.31.34:387][291]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Tower
+[2023.11.19-17.31.34:387][291]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/MAP_Tower3DCD142248E71918B086959E73CD50F5.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Maps/MAP_Tower.umap'
+[2023.11.19-17.31.34:391][291]LogFileHelpers: Saving map 'MAP_Tower' took 0.030
+[2023.11.19-17.31.34:397][291]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 686 ms)
+[2023.11.19-17.31.34:398][291]AssetCheck: New page: Asset Save: MAP_Tower
+[2023.11.19-17.31.34:398][291]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_Tower.MAP_Tower
+[2023.11.19-17.31.35:050][368]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.19-17.31.35:053][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.19-17.31.35:053][368]PIE: New page: PIE session: MAP_Tower (19 Nov 2023, 19.31.35)
+[2023.11.19-17.31.35:053][368]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-17.31.35:054][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001193s)
+[2023.11.19-17.31.35:054][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001217s)
+[2023.11.19-17.31.35:066][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.11.19-17.31.35:067][368]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-17.31.35:067][368]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-17.31.35:067][368]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.19-17.31.35:068][368]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2023.11.19-17.31.35:068][368]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.11.19-17.31.35:068][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.19-17.31.35:068][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.19-17.31.35:068][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.19-17.31.35:068][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.19-17.31.35:068][368]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.19-17.31.35:068][368]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.19-17.31.35:068][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.19-17.31.35:068][368]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.19-17.31.35:068][368]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.19-17.31.35:068][368]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.19-17.31.35:068][368]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.19-17.31.35:070][368]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.19-17.31.35:086][368]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.19-17.31.35:086][368]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.19-17.31.35:088][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.19-17.31.35:088][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.19-17.31.35:088][368]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.11.19-17.31.35:088][368]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.11.19-17.31.35:089][368]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.11.19-17.31.35:089][368]LogInit: FAudioDevice initialized with ID 11.
+[2023.11.19-17.31.35:090][368]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.11.19-17.31.35:090][368]LogAudio: Display: Audio Device (ID: 11) registered with world 'MAP_Tower'.
+[2023.11.19-17.31.35:090][368]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2023.11.19-17.31.35:092][368]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.19-17.31.35:092][368]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.19-18.31.35
+[2023.11.19-17.31.35:093][368]LogWorld: Bringing up level for play took: 0.001057
+[2023.11.19-17.31.35:094][368]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2023.11.19-17.31.35:094][368]PIE: Server logged in
+[2023.11.19-17.31.35:096][368]PIE: Play in editor total start time 0,042 seconds.
+[2023.11.19-17.31.38:976][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-17.31.38:976][820]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-17.31.38:976][820]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-17.31.38:976][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-17.31.38:980][820]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.19-17.31.38:983][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-17.31.38:994][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-17.31.38:994][820]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2023.11.19-17.31.38:994][820]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.11.19-17.31.38:995][820]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.11.19-17.31.39:000][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.11.19-17.31.39:039][821]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-17.31.39:084][821]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.11.19-17.31.58:331][ 95]BlueprintLog: New page: Compile BP_PlatformerChar
+[2023.11.19-17.31.58:380][ 95]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-17.31.58:429][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.11.19-17.31.58:518][ 96]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-17.31.59:312][180]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-17.31.59:341][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_PlatformerChar" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset" SILENT=true
+[2023.11.19-17.31.59:343][180]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_PlatformerChar
+[2023.11.19-17.31.59:345][180]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerCharD14167FE48FAC7C16B29908B227D85BB.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset'
+[2023.11.19-17.31.59:349][180]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 723 ms)
+[2023.11.19-17.31.59:350][180]AssetCheck: New page: Asset Save: BP_PlatformerChar
+[2023.11.19-17.31.59:350][180]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_PlatformerChar.BP_PlatformerChar
+[2023.11.19-17.32.03:791][699]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/King/BP_King.BP_King
+[2023.11.19-17.32.03:791][699]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-17.32.03:791][699]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-17.32.03:917][699]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-17.36.11:909][742]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.11.19-17.36.11:909][742]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.11.19-17.36.37:008][754]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.11.19-18.17.44:960][572]LogDerivedDataCache: C:/Users/Brian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.036 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 807 files in 1302 folders with total size 4 MiB.
+[2023.11.19-19.17.43:985][367]LogDerivedDataCache: C:/Users/Brian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.060 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 807 files in 1302 folders with total size 4 MiB.
+[2023.11.19-19.20.51:210][127]BlueprintLog: New page: Compile BP_King
+[2023.11.19-19.20.51:240][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.11.19-19.20.51:653][167]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-19.20.51:678][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/BP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset" SILENT=true
+[2023.11.19-19.20.51:689][167]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/BP_King
+[2023.11.19-19.20.51:689][167]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_King40BD342A4A1D31AEE3DEF0B09252DD46.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset'
+[2023.11.19-19.20.51:695][167]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 765 ms)
+[2023.11.19-19.20.51:697][167]AssetCheck: New page: Asset Save: BP_King
+[2023.11.19-19.20.51:697][167]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/King/BP_King.BP_King
+[2023.11.19-19.20.53:650][395]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.19-19.20.53:656][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.19-19.20.53:656][395]PIE: New page: PIE session: MAP_Tower (19 Nov 2023, 21.20.53)
+[2023.11.19-19.20.53:681][395]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-19.20.53:683][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001292s)
+[2023.11.19-19.20.53:683][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001328s)
+[2023.11.19-19.20.53:694][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.11.19-19.20.53:696][395]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-19.20.53:696][395]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-19.20.53:696][395]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.19-19.20.53:697][395]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2023.11.19-19.20.53:697][395]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.11.19-19.20.53:697][395]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.19-19.20.53:697][395]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.19-19.20.53:697][395]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.19-19.20.53:697][395]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.19-19.20.53:697][395]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.19-19.20.53:697][395]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.19-19.20.53:697][395]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.19-19.20.53:697][395]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.19-19.20.53:697][395]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.19-19.20.53:697][395]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.19-19.20.53:697][395]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.19-19.20.53:699][395]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.19-19.20.53:717][395]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.19-19.20.53:717][395]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.19-19.20.53:717][395]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.19-19.20.53:717][395]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.19-19.20.53:717][395]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.11.19-19.20.53:718][395]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.11.19-19.20.53:719][395]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.11.19-19.20.53:719][395]LogInit: FAudioDevice initialized with ID 12.
+[2023.11.19-19.20.53:719][395]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.11.19-19.20.53:719][395]LogAudio: Display: Audio Device (ID: 12) registered with world 'MAP_Tower'.
+[2023.11.19-19.20.53:719][395]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2023.11.19-19.20.53:721][395]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.19-19.20.53:721][395]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.19-20.20.53
+[2023.11.19-19.20.53:723][395]LogWorld: Bringing up level for play took: 0.001099
+[2023.11.19-19.20.53:724][395]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.11.19-19.20.53:726][395]PIE: Server logged in
+[2023.11.19-19.20.53:726][395]PIE: Play in editor total start time 0,072 seconds.
+[2023.11.19-19.20.56:599][730]LogBlueprintUserMessages: [BP_King_C_0] BP_Pig2
+[2023.11.19-19.20.56:922][769]LogBlueprintUserMessages: [BP_King_C_0] BP_Pig2
+[2023.11.19-19.20.57:872][883]LogBlueprintUserMessages: [BP_King_C_0] BP_Pig2
+[2023.11.19-19.20.58:556][965]LogBlueprintUserMessages: [BP_King_C_0] BP_Pig2
+[2023.11.19-19.20.58:563][966]LogBlueprintUserMessages: [BP_King_C_0] BP_Pig2
+[2023.11.19-19.20.58:897][  6]LogBlueprintUserMessages: [BP_King_C_0] BP_Pig2
+[2023.11.19-19.20.59:448][ 72]LogBlueprintUserMessages: [BP_King_C_0] BP_Pig2
+[2023.11.19-19.21.00:050][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-19.21.00:050][141]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-19.21.00:052][141]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-19.21.00:052][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-19.21.00:056][141]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.19-19.21.00:059][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-19.21.00:070][141]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.19-19.21.00:070][141]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2023.11.19-19.21.00:070][141]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.11.19-19.21.00:073][141]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.11.19-19.21.00:076][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-19.21.00:078][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.11.19-19.21.00:120][142]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.21.00:168][142]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.11.19-19.22.02:804][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.11.19-19.22.02:806][291]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Tower' took 0.015
+[2023.11.19-19.22.02:806][291]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/King/BP_King] ([2] browsable assets)...
+[2023.11.19-19.22.02:806][291]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/King/BP_King]
+[2023.11.19-19.22.02:815][291]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Characters/King/BP_King_Auto3
+[2023.11.19-19.22.02:815][291]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_King_Auto30943948140E0EE69461C508DB5F4BDEA.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Blueprints/Characters/King/BP_King_Auto3.uasset'
+[2023.11.19-19.22.02:816][291]LogFileHelpers: Auto-saving content packages took 0.010
+[2023.11.19-19.22.45:182][248]BlueprintLog: New page: Compile BP_PlatformerChar
+[2023.11.19-19.22.45:225][248]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.22.45:277][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.11.19-19.22.45:344][249]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.22.45:656][279]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-19.22.45:687][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_PlatformerChar" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset" SILENT=true
+[2023.11.19-19.22.45:690][279]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_PlatformerChar
+[2023.11.19-19.22.45:690][279]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerCharA8209D294F34A1CD6334AF9FC693D426.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset'
+[2023.11.19-19.22.45:696][279]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 805 ms)
+[2023.11.19-19.22.45:697][279]AssetCheck: New page: Asset Save: BP_PlatformerChar
+[2023.11.19-19.22.45:697][279]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_PlatformerChar.BP_PlatformerChar
+[2023.11.19-19.25.15:296][695]BlueprintLog: New page: Compile BP_PlatformerChar
+[2023.11.19-19.25.15:336][695]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.25.15:390][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.11.19-19.25.15:465][696]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.25.17:588][944]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-19.25.17:616][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_PlatformerChar" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset" SILENT=true
+[2023.11.19-19.25.17:621][944]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_PlatformerChar
+[2023.11.19-19.25.17:621][944]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerChar892B2142493170F6B2C5D294084EBB59.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset'
+[2023.11.19-19.25.17:627][944]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 845 ms)
+[2023.11.19-19.25.17:628][944]AssetCheck: New page: Asset Save: BP_PlatformerChar
+[2023.11.19-19.25.17:628][944]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_PlatformerChar.BP_PlatformerChar
+[2023.11.19-19.25.26:823][612]BlueprintLog: New page: Compile BP_King
+[2023.11.19-19.25.26:853][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.11.19-19.25.27:913][732]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-19.25.27:930][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/BP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset" SILENT=true
+[2023.11.19-19.25.27:940][732]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/BP_King
+[2023.11.19-19.25.27:940][732]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_King03DC4D34485AC188DB1F3B9E13198465.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset'
+[2023.11.19-19.25.27:946][732]LogFileHelpers: InternalPromptForCheckoutAndSave took 33 ms (total: 878 ms)
+[2023.11.19-19.25.27:946][732]AssetCheck: New page: Asset Save: BP_King
+[2023.11.19-19.25.27:946][732]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/King/BP_King.BP_King
+[2023.11.19-19.28.24:981][ 64]BlueprintLog: New page: Compile BP_King
+[2023.11.19-19.28.25:009][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.11.19-19.28.27:062][301]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-19.28.27:089][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/BP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset" SILENT=true
+[2023.11.19-19.28.27:099][301]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/BP_King
+[2023.11.19-19.28.27:099][301]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_King0E674327494CD8E24D356094300C00FE.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset'
+[2023.11.19-19.28.27:104][301]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 920 ms)
+[2023.11.19-19.28.27:105][301]AssetCheck: New page: Asset Save: BP_King
+[2023.11.19-19.28.27:105][301]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/King/BP_King.BP_King
+[2023.11.19-19.28.31:465][621]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.19-19.28.31:470][621]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.19-19.28.31:470][621]PIE: New page: PIE session: MAP_Tower (19 Nov 2023, 21.28.31)
+[2023.11.19-19.28.31:502][621]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-19.28.31:504][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001265s)
+[2023.11.19-19.28.31:504][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001297s)
+[2023.11.19-19.28.31:516][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.11.19-19.28.31:519][621]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-19.28.31:520][621]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-19.28.31:520][621]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.19-19.28.31:520][621]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2023.11.19-19.28.31:520][621]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.11.19-19.28.31:520][621]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.19-19.28.31:520][621]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.19-19.28.31:520][621]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.19-19.28.31:520][621]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.19-19.28.31:520][621]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.19-19.28.31:520][621]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.19-19.28.31:520][621]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.19-19.28.31:520][621]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.19-19.28.31:521][621]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.19-19.28.31:521][621]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.19-19.28.31:521][621]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.19-19.28.31:523][621]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.19-19.28.31:541][621]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.19-19.28.31:541][621]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.19-19.28.31:541][621]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.19-19.28.31:541][621]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.19-19.28.31:542][621]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.11.19-19.28.31:542][621]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.11.19-19.28.31:543][621]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.11.19-19.28.31:543][621]LogInit: FAudioDevice initialized with ID 13.
+[2023.11.19-19.28.31:543][621]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.11.19-19.28.31:543][621]LogAudio: Display: Audio Device (ID: 13) registered with world 'MAP_Tower'.
+[2023.11.19-19.28.31:544][621]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2023.11.19-19.28.31:546][621]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.19-19.28.31:546][621]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.19-20.28.31
+[2023.11.19-19.28.31:548][621]LogWorld: Bringing up level for play took: 0.001070
+[2023.11.19-19.28.31:549][621]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.11.19-19.28.31:550][621]PIE: Server logged in
+[2023.11.19-19.28.31:550][621]PIE: Play in editor total start time 0,082 seconds.
+[2023.11.19-19.28.35:302][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-19.28.35:302][ 59]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-19.28.35:302][ 59]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-19.28.35:302][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-19.28.35:306][ 59]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.19-19.28.35:310][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-19.28.35:320][ 59]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.19-19.28.35:322][ 59]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2023.11.19-19.28.35:322][ 59]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.11.19-19.28.35:323][ 59]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.11.19-19.28.35:326][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-19.28.35:328][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.11.19-19.28.35:369][ 60]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.28.35:414][ 60]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.11.19-19.30.13:086][475]LogSlate: Took 0.014743 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.11.19-19.30.28:984][344]BlueprintLog: New page: Compile BP_PlatformerChar
+[2023.11.19-19.30.29:028][344]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.30.29:080][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.11.19-19.30.29:144][345]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.30.29:518][380]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-19.30.29:546][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_PlatformerChar" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset" SILENT=true
+[2023.11.19-19.30.29:552][380]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_PlatformerChar
+[2023.11.19-19.30.29:552][380]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerChar82F35F5D4746979C425CAF961BBD0129.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset'
+[2023.11.19-19.30.29:558][380]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 961 ms)
+[2023.11.19-19.30.29:559][380]AssetCheck: New page: Asset Save: BP_PlatformerChar
+[2023.11.19-19.30.29:559][380]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_PlatformerChar.BP_PlatformerChar
+[2023.11.19-19.30.42:036][824]BlueprintLog: New page: Compile BP_PlatformerChar
+[2023.11.19-19.30.42:075][824]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.30.42:127][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.11.19-19.30.42:211][825]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.30.42:841][891]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-19.30.42:868][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_PlatformerChar" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset" SILENT=true
+[2023.11.19-19.30.42:872][891]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_PlatformerChar
+[2023.11.19-19.30.42:872][891]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerChar4942D59E4C09B292A20F8393FB7A1D27.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset'
+[2023.11.19-19.30.42:878][891]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 997 ms)
+[2023.11.19-19.30.42:879][891]AssetCheck: New page: Asset Save: BP_PlatformerChar
+[2023.11.19-19.30.42:879][891]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_PlatformerChar.BP_PlatformerChar
+[2023.11.19-19.30.48:456][277]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.19-19.30.48:462][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.19-19.30.48:462][277]PIE: New page: PIE session: MAP_Tower (19 Nov 2023, 21.30.48)
+[2023.11.19-19.30.48:509][277]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-19.30.48:510][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001332s)
+[2023.11.19-19.30.48:510][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001370s)
+[2023.11.19-19.30.48:523][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.11.19-19.30.48:531][277]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-19.30.48:531][277]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-19.30.48:531][277]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.19-19.30.48:531][277]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2023.11.19-19.30.48:531][277]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.11.19-19.30.48:531][277]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.19-19.30.48:531][277]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.19-19.30.48:531][277]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.19-19.30.48:531][277]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.19-19.30.48:531][277]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.19-19.30.48:531][277]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.19-19.30.48:531][277]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.19-19.30.48:531][277]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.19-19.30.48:532][277]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.19-19.30.48:532][277]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.19-19.30.48:532][277]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.19-19.30.48:533][277]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.19-19.30.48:551][277]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.19-19.30.48:551][277]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.19-19.30.48:551][277]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.19-19.30.48:551][277]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.19-19.30.48:551][277]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.11.19-19.30.48:551][277]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.11.19-19.30.48:553][277]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.11.19-19.30.48:553][277]LogInit: FAudioDevice initialized with ID 14.
+[2023.11.19-19.30.48:553][277]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.11.19-19.30.48:553][277]LogAudio: Display: Audio Device (ID: 14) registered with world 'MAP_Tower'.
+[2023.11.19-19.30.48:553][277]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2023.11.19-19.30.48:555][277]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.19-19.30.48:556][277]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.19-20.30.48
+[2023.11.19-19.30.48:557][277]LogWorld: Bringing up level for play took: 0.000987
+[2023.11.19-19.30.48:558][277]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.11.19-19.30.48:559][277]PIE: Server logged in
+[2023.11.19-19.30.48:560][277]PIE: Play in editor total start time 0,1 seconds.
+[2023.11.19-19.30.53:700][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-19.30.53:700][880]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-19.30.53:700][880]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-19.30.53:700][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-19.30.53:704][880]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.19-19.30.53:707][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-19.30.53:719][880]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.19-19.30.53:719][880]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2023.11.19-19.30.53:719][880]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.11.19-19.30.53:721][880]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.11.19-19.30.53:723][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-19.30.53:725][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.11.19-19.30.53:767][881]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.30.53:812][881]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.11.19-19.30.54:481][957]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.19-19.30.54:485][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.19-19.30.54:485][957]PIE: New page: PIE session: MAP_Tower (19 Nov 2023, 21.30.54)
+[2023.11.19-19.30.54:520][957]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-19.30.54:521][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001399s)
+[2023.11.19-19.30.54:521][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001433s)
+[2023.11.19-19.30.54:533][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.11.19-19.30.54:537][957]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-19.30.54:537][957]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-19.30.54:537][957]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.19-19.30.54:538][957]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2023.11.19-19.30.54:538][957]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.11.19-19.30.54:538][957]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.19-19.30.54:538][957]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.19-19.30.54:538][957]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.19-19.30.54:538][957]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.19-19.30.54:538][957]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.19-19.30.54:538][957]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.19-19.30.54:538][957]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.19-19.30.54:538][957]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.19-19.30.54:538][957]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.19-19.30.54:538][957]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.19-19.30.54:538][957]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.19-19.30.54:539][957]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.19-19.30.54:557][957]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.19-19.30.54:557][957]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.19-19.30.54:557][957]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.19-19.30.54:557][957]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.19-19.30.54:558][957]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.11.19-19.30.54:558][957]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.11.19-19.30.54:559][957]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.11.19-19.30.54:559][957]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.11.19-19.30.54:559][957]LogInit: FAudioDevice initialized with ID 15.
+[2023.11.19-19.30.54:559][957]LogAudio: Display: Audio Device (ID: 15) registered with world 'MAP_Tower'.
+[2023.11.19-19.30.54:559][957]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2023.11.19-19.30.54:561][957]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.19-19.30.54:562][957]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.19-20.30.54
+[2023.11.19-19.30.54:563][957]LogWorld: Bringing up level for play took: 0.000953
+[2023.11.19-19.30.54:564][957]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.11.19-19.30.54:565][957]PIE: Server logged in
+[2023.11.19-19.30.54:566][957]PIE: Play in editor total start time 0,081 seconds.
+[2023.11.19-19.31.00:529][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-19.31.00:529][661]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-19.31.00:529][661]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-19.31.00:529][661]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-19.31.00:534][661]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.19-19.31.00:537][661]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-19.31.00:549][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-19.31.00:549][661]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2023.11.19-19.31.00:549][661]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.11.19-19.31.00:551][661]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.11.19-19.31.00:556][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.11.19-19.31.00:597][662]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.31.00:643][662]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.11.19-19.31.29:092][731]BlueprintLog: New page: Compile BP_PlatformerChar
+[2023.11.19-19.31.29:138][731]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.31.29:189][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.11.19-19.31.29:273][732]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.31.29:501][752]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-19.31.29:527][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_PlatformerChar" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset" SILENT=true
+[2023.11.19-19.31.29:532][752]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_PlatformerChar
+[2023.11.19-19.31.29:532][752]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerCharA3EA9EFD4CA4C009CF423B8DB03D967A.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset'
+[2023.11.19-19.31.29:538][752]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 1.03 sec)
+[2023.11.19-19.31.29:539][752]AssetCheck: New page: Asset Save: BP_PlatformerChar
+[2023.11.19-19.31.29:539][752]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_PlatformerChar.BP_PlatformerChar
+[2023.11.19-19.31.40:926][112]BlueprintLog: New page: Compile BP_PlatformerChar
+[2023.11.19-19.31.40:963][112]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.31.41:016][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.11.19-19.31.41:093][113]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.31.41:406][143]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-19.31.41:438][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_PlatformerChar" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset" SILENT=true
+[2023.11.19-19.31.41:443][143]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_PlatformerChar
+[2023.11.19-19.31.41:443][143]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerChar805D99F44658BE4E2C46CB954BD92092.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset'
+[2023.11.19-19.31.41:448][143]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 1.07 sec)
+[2023.11.19-19.31.41:450][143]AssetCheck: New page: Asset Save: BP_PlatformerChar
+[2023.11.19-19.31.41:450][143]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_PlatformerChar.BP_PlatformerChar
+[2023.11.19-19.31.43:602][393]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.19-19.31.43:608][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.19-19.31.43:608][393]PIE: New page: PIE session: MAP_Tower (19 Nov 2023, 21.31.43)
+[2023.11.19-19.31.43:629][393]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-19.31.43:630][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001427s)
+[2023.11.19-19.31.43:630][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001460s)
+[2023.11.19-19.31.43:642][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.11.19-19.31.43:649][393]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-19.31.43:649][393]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-19.31.43:650][393]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.19-19.31.43:650][393]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2023.11.19-19.31.43:650][393]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.11.19-19.31.43:650][393]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.19-19.31.43:650][393]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.19-19.31.43:650][393]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.19-19.31.43:650][393]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.19-19.31.43:650][393]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.19-19.31.43:650][393]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.19-19.31.43:650][393]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.19-19.31.43:650][393]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.19-19.31.43:650][393]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.19-19.31.43:650][393]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.19-19.31.43:650][393]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.19-19.31.43:652][393]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.19-19.31.43:669][393]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.19-19.31.43:669][393]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.19-19.31.43:669][393]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.19-19.31.43:669][393]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.19-19.31.43:671][393]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.11.19-19.31.43:671][393]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.11.19-19.31.43:672][393]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.11.19-19.31.43:672][393]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.11.19-19.31.43:672][393]LogInit: FAudioDevice initialized with ID 16.
+[2023.11.19-19.31.43:672][393]LogAudio: Display: Audio Device (ID: 16) registered with world 'MAP_Tower'.
+[2023.11.19-19.31.43:672][393]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2023.11.19-19.31.43:674][393]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.19-19.31.43:675][393]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.19-20.31.43
+[2023.11.19-19.31.43:675][393]LogWorld: Bringing up level for play took: 0.001095
+[2023.11.19-19.31.43:677][393]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.11.19-19.31.43:678][393]PIE: Server logged in
+[2023.11.19-19.31.43:679][393]PIE: Play in editor total start time 0,074 seconds.
+[2023.11.19-19.31.48:729][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-19.31.48:729][944]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-19.31.48:729][944]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-19.31.48:729][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-19.31.48:733][944]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.19-19.31.48:736][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-19.31.48:749][944]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.19-19.31.48:749][944]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2023.11.19-19.31.48:749][944]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.11.19-19.31.48:751][944]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.11.19-19.31.48:754][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-19.31.48:756][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.11.19-19.31.48:800][945]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.31.48:848][945]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.11.19-19.33.09:025][188]BlueprintLog: New page: Compile BP_PlatformerChar
+[2023.11.19-19.33.09:078][188]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.33.09:139][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.11.19-19.33.09:230][189]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.33.09:532][216]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-19.33.09:565][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_PlatformerChar" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset" SILENT=true
+[2023.11.19-19.33.09:570][216]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_PlatformerChar
+[2023.11.19-19.33.09:570][216]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerChar70DB61244F0DA80D200F7E8ACD61A361.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset'
+[2023.11.19-19.33.09:577][216]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 1.12 sec)
+[2023.11.19-19.33.09:578][216]AssetCheck: New page: Asset Save: BP_PlatformerChar
+[2023.11.19-19.33.09:578][216]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_PlatformerChar.BP_PlatformerChar
+[2023.11.19-19.34.26:426][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.11.19-19.34.26:428][276]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Tower' took 0.015
+[2023.11.19-19.34.26:428][276]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/BP_PlatformerChar] ([2] browsable assets)...
+[2023.11.19-19.34.26:428][276]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/BP_PlatformerChar]
+[2023.11.19-19.34.26:433][276]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Characters/BP_PlatformerChar_Auto4
+[2023.11.19-19.34.26:433][276]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerChar_Auto4DFD2D8C74908663BCA5048A45F0D0724.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Blueprints/Characters/BP_PlatformerChar_Auto4.uasset'
+[2023.11.19-19.34.26:433][276]LogFileHelpers: Auto-saving content packages took 0.006
+[2023.11.19-19.36.16:671][637]BlueprintLog: New page: Compile BP_PlatformerChar
+[2023.11.19-19.36.16:712][637]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.36.16:767][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.11.19-19.36.16:850][638]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-19.36.17:145][665]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-19.36.17:178][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_PlatformerChar" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset" SILENT=true
+[2023.11.19-19.36.17:185][665]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_PlatformerChar
+[2023.11.19-19.36.17:185][665]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerChar49914BD74B91CF38CBF7B0BC9EE79825.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset'
+[2023.11.19-19.36.17:191][665]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 1.16 sec)
+[2023.11.19-19.36.17:192][665]AssetCheck: New page: Asset Save: BP_PlatformerChar
+[2023.11.19-19.36.17:192][665]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_PlatformerChar.BP_PlatformerChar
+[2023.11.19-19.44.27:203][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.11.19-19.44.27:209][215]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Tower' took 0.020
+[2023.11.19-19.44.27:209][215]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/BP_PlatformerChar] ([2] browsable assets)...
+[2023.11.19-19.44.27:209][215]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/BP_PlatformerChar]
+[2023.11.19-19.44.27:216][215]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Characters/BP_PlatformerChar_Auto5
+[2023.11.19-19.44.27:216][215]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerChar_Auto50583B26B4BF5B2180C3CA9BBB070B7DF.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Blueprints/Characters/BP_PlatformerChar_Auto5.uasset'
+[2023.11.19-19.44.27:216][215]LogFileHelpers: Auto-saving content packages took 0.007
+[2023.11.19-20.14.15:456][298]BlueprintLog: New page: Compile BP_PlatformerChar
+[2023.11.19-20.14.15:495][298]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-20.14.15:547][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.11.19-20.14.15:620][299]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-20.14.15:850][320]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-20.14.15:882][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_PlatformerChar" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset" SILENT=true
+[2023.11.19-20.14.15:890][320]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_PlatformerChar
+[2023.11.19-20.14.15:890][320]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerCharB1C91EDD41F3DC4851360D90CBBB9510.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset'
+[2023.11.19-20.14.15:895][320]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 1.21 sec)
+[2023.11.19-20.14.15:896][320]AssetCheck: New page: Asset Save: BP_PlatformerChar
+[2023.11.19-20.14.15:896][320]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_PlatformerChar.BP_PlatformerChar
+[2023.11.19-20.14.17:451][410]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.19-20.14.17:456][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.19-20.14.17:456][410]PIE: New page: PIE session: MAP_Tower (19 Nov 2023, 22.14.17)
+[2023.11.19-20.14.17:478][410]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-20.14.17:479][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001268s)
+[2023.11.19-20.14.17:479][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001295s)
+[2023.11.19-20.14.17:491][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.11.19-20.14.17:498][410]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-20.14.17:498][410]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-20.14.17:498][410]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.19-20.14.17:500][410]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2023.11.19-20.14.17:500][410]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.11.19-20.14.17:500][410]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.19-20.14.17:500][410]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.19-20.14.17:500][410]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.19-20.14.17:500][410]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.19-20.14.17:500][410]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.19-20.14.17:500][410]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.19-20.14.17:500][410]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.19-20.14.17:500][410]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.19-20.14.17:500][410]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.19-20.14.17:500][410]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.19-20.14.17:500][410]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.19-20.14.17:502][410]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.19-20.14.17:520][410]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.19-20.14.17:520][410]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.19-20.14.17:520][410]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.19-20.14.17:520][410]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.19-20.14.17:521][410]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.11.19-20.14.17:521][410]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.11.19-20.14.17:522][410]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.11.19-20.14.17:522][410]LogInit: FAudioDevice initialized with ID 17.
+[2023.11.19-20.14.17:522][410]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.11.19-20.14.17:522][410]LogAudio: Display: Audio Device (ID: 17) registered with world 'MAP_Tower'.
+[2023.11.19-20.14.17:522][410]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2023.11.19-20.14.18:064][410]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.19-20.14.18:066][410]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.19-21.14.18
+[2023.11.19-20.14.18:066][410]LogWorld: Bringing up level for play took: 0.000989
+[2023.11.19-20.14.18:067][410]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2023.11.19-20.14.18:069][410]PIE: Server logged in
+[2023.11.19-20.14.18:069][410]PIE: Play in editor total start time 0,615 seconds.
+[2023.11.19-20.14.18:083][411]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062650 > MaxSimulationTimeStep (0.050) for 'BP_Pig_C_1', movement 'Walking'
+[2023.11.19-20.14.18:083][411]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.057991 > MaxSimulationTimeStep (0.050) for 'BP_Pig_C_2', movement 'Walking'
+[2023.11.19-20.14.22:349][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-20.14.22:349][892]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-20.14.22:349][892]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-20.14.22:349][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.14.22:353][892]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.19-20.14.22:356][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.14.22:367][892]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.19-20.14.22:367][892]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2023.11.19-20.14.22:367][892]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.11.19-20.14.22:369][892]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.11.19-20.14.22:372][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-20.14.22:374][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.11.19-20.14.22:414][893]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-20.14.22:458][893]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.11.19-20.16.29:178][996]LogSlate: Took 0.003154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.11.19-20.16.36:188][822]BlueprintLog: New page: Compile BP_King
+[2023.11.19-20.16.36:217][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.11.19-20.16.37:534][971]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-20.16.37:556][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/BP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset" SILENT=true
+[2023.11.19-20.16.37:566][971]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/BP_King
+[2023.11.19-20.16.37:566][971]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_King8160874B47BDC15D09BC18B590610C18.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset'
+[2023.11.19-20.16.37:571][971]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 1.24 sec)
+[2023.11.19-20.16.37:572][971]AssetCheck: New page: Asset Save: BP_King
+[2023.11.19-20.16.37:572][971]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/King/BP_King.BP_King
+[2023.11.19-20.16.39:120][152]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.19-20.16.39:124][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.19-20.16.39:124][152]PIE: New page: PIE session: MAP_Tower (19 Nov 2023, 22.16.39)
+[2023.11.19-20.16.39:156][152]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-20.16.39:157][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001345s)
+[2023.11.19-20.16.39:157][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001379s)
+[2023.11.19-20.16.39:170][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.11.19-20.16.39:173][152]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-20.16.39:173][152]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-20.16.39:174][152]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.19-20.16.39:174][152]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2023.11.19-20.16.39:174][152]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.11.19-20.16.39:174][152]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.19-20.16.39:174][152]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.19-20.16.39:174][152]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.19-20.16.39:174][152]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.19-20.16.39:174][152]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.19-20.16.39:174][152]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.19-20.16.39:174][152]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.19-20.16.39:174][152]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.19-20.16.39:174][152]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.19-20.16.39:174][152]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.19-20.16.39:174][152]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.19-20.16.39:176][152]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.19-20.16.39:193][152]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.19-20.16.39:193][152]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.19-20.16.39:193][152]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.19-20.16.39:193][152]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.19-20.16.39:194][152]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.11.19-20.16.39:194][152]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.11.19-20.16.39:195][152]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.11.19-20.16.39:195][152]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.11.19-20.16.39:195][152]LogInit: FAudioDevice initialized with ID 18.
+[2023.11.19-20.16.39:195][152]LogAudio: Display: Audio Device (ID: 18) registered with world 'MAP_Tower'.
+[2023.11.19-20.16.39:195][152]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2023.11.19-20.16.39:197][152]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.19-20.16.39:198][152]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.19-21.16.39
+[2023.11.19-20.16.39:198][152]LogWorld: Bringing up level for play took: 0.000965
+[2023.11.19-20.16.39:200][152]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.11.19-20.16.39:200][152]PIE: Server logged in
+[2023.11.19-20.16.39:202][152]PIE: Play in editor total start time 0,078 seconds.
+[2023.11.19-20.16.44:335][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-20.16.44:335][755]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-20.16.44:335][755]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-20.16.44:335][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.16.44:340][755]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.19-20.16.44:343][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.16.44:354][755]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.19-20.16.44:354][755]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2023.11.19-20.16.44:354][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.11.19-20.16.44:356][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.11.19-20.16.44:360][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-20.16.44:362][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.11.19-20.16.44:403][756]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-20.16.44:449][756]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.11.19-20.17.01:185][738]BlueprintLog: New page: Compile BP_King
+[2023.11.19-20.17.01:214][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.11.19-20.17.01:646][780]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-20.17.01:673][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/BP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset" SILENT=true
+[2023.11.19-20.17.01:683][780]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/BP_King
+[2023.11.19-20.17.01:683][780]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_KingD6C81FBD4FCCFDCACA26469F314C1B7C.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset'
+[2023.11.19-20.17.01:689][780]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 1.29 sec)
+[2023.11.19-20.17.01:690][780]AssetCheck: New page: Asset Save: BP_King
+[2023.11.19-20.17.01:690][780]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/King/BP_King.BP_King
+[2023.11.19-20.17.03:362][976]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.19-20.17.03:367][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.19-20.17.03:367][976]PIE: New page: PIE session: MAP_Tower (19 Nov 2023, 22.17.03)
+[2023.11.19-20.17.03:406][976]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-20.17.03:407][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001444s)
+[2023.11.19-20.17.03:407][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001474s)
+[2023.11.19-20.17.03:417][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.11.19-20.17.03:420][976]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-20.17.03:420][976]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-20.17.03:420][976]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.19-20.17.03:421][976]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2023.11.19-20.17.03:421][976]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.11.19-20.17.03:421][976]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.19-20.17.03:421][976]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.19-20.17.03:421][976]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.19-20.17.03:421][976]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.19-20.17.03:421][976]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.19-20.17.03:421][976]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.19-20.17.03:421][976]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.19-20.17.03:421][976]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.19-20.17.03:421][976]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.19-20.17.03:421][976]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.19-20.17.03:421][976]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.19-20.17.03:422][976]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.19-20.17.03:439][976]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.19-20.17.03:439][976]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.19-20.17.03:439][976]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.19-20.17.03:439][976]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.19-20.17.03:440][976]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.11.19-20.17.03:440][976]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.11.19-20.17.03:441][976]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.11.19-20.17.03:441][976]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.11.19-20.17.03:441][976]LogInit: FAudioDevice initialized with ID 19.
+[2023.11.19-20.17.03:441][976]LogAudio: Display: Audio Device (ID: 19) registered with world 'MAP_Tower'.
+[2023.11.19-20.17.03:441][976]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2023.11.19-20.17.03:443][976]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.19-20.17.03:444][976]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.19-21.17.03
+[2023.11.19-20.17.03:445][976]LogWorld: Bringing up level for play took: 0.001030
+[2023.11.19-20.17.03:446][976]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.11.19-20.17.03:447][976]PIE: Server logged in
+[2023.11.19-20.17.03:447][976]PIE: Play in editor total start time 0,081 seconds.
+[2023.11.19-20.17.06:446][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-20.17.06:446][324]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-20.17.06:446][324]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-20.17.06:446][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.17.06:450][324]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.19-20.17.06:453][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.17.06:463][324]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.19-20.17.06:465][324]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2023.11.19-20.17.06:465][324]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.11.19-20.17.06:466][324]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.11.19-20.17.06:468][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-20.17.06:470][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.11.19-20.17.06:512][325]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-20.17.06:557][325]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.11.19-20.17.44:964][693]LogDerivedDataCache: C:/Users/Brian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.039 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 807 files in 1302 folders with total size 4 MiB.
+[2023.11.19-20.17.45:569][766]BlueprintLog: New page: Compile BP_King
+[2023.11.19-20.17.45:600][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.11.19-20.17.46:005][805]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-20.17.46:028][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/BP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset" SILENT=true
+[2023.11.19-20.17.46:038][805]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/BP_King
+[2023.11.19-20.17.46:038][805]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_King8025301745683CCF0DBC29AC2FACD95E.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset'
+[2023.11.19-20.17.46:044][805]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 1.33 sec)
+[2023.11.19-20.17.46:045][805]AssetCheck: New page: Asset Save: BP_King
+[2023.11.19-20.17.46:045][805]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/King/BP_King.BP_King
+[2023.11.19-20.17.50:546][339]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.19-20.17.50:550][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.19-20.17.50:550][339]PIE: New page: PIE session: MAP_Tower (19 Nov 2023, 22.17.50)
+[2023.11.19-20.17.50:574][339]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-20.17.50:576][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001264s)
+[2023.11.19-20.17.50:576][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001292s)
+[2023.11.19-20.17.50:588][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.11.19-20.17.50:591][339]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-20.17.50:591][339]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-20.17.50:591][339]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.19-20.17.50:591][339]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2023.11.19-20.17.50:592][339]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.11.19-20.17.50:592][339]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.19-20.17.50:592][339]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.19-20.17.50:592][339]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.19-20.17.50:592][339]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.19-20.17.50:592][339]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.19-20.17.50:592][339]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.19-20.17.50:592][339]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.19-20.17.50:592][339]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.19-20.17.50:592][339]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.19-20.17.50:592][339]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.19-20.17.50:592][339]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.19-20.17.50:594][339]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.19-20.17.50:611][339]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.19-20.17.50:611][339]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.19-20.17.50:611][339]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.19-20.17.50:611][339]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.19-20.17.50:612][339]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.11.19-20.17.50:612][339]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.11.19-20.17.50:614][339]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.11.19-20.17.50:614][339]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.11.19-20.17.50:614][339]LogInit: FAudioDevice initialized with ID 20.
+[2023.11.19-20.17.50:614][339]LogAudio: Display: Audio Device (ID: 20) registered with world 'MAP_Tower'.
+[2023.11.19-20.17.50:614][339]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.11.19-20.17.50:616][339]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.19-20.17.50:617][339]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.19-21.17.50
+[2023.11.19-20.17.50:617][339]LogWorld: Bringing up level for play took: 0.001039
+[2023.11.19-20.17.50:618][339]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.11.19-20.17.50:620][339]PIE: Server logged in
+[2023.11.19-20.17.50:620][339]PIE: Play in editor total start time 0,071 seconds.
+[2023.11.19-20.17.53:935][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-20.17.53:935][724]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-20.17.53:935][724]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-20.17.53:935][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.17.53:939][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.19-20.17.53:942][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.17.53:952][724]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.19-20.17.53:952][724]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.11.19-20.17.53:952][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.11.19-20.17.53:955][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.11.19-20.17.53:958][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-20.17.53:959][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.11.19-20.17.54:001][725]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+FWindowsPlatformStackWalk::CaptureStackBackTrace() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformStackWalk.cpp:383]
+UClass::TryFindTypeSlow() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:6244]
+`FPaperZDComponentReferenceCustomization::BuildClassFilters'::`2'::<lambda_2>::operator()() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:183]
+FPaperZDComponentReferenceCustomization::CustomizeHeader() [D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\PaperZD\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp:91]
+FDetailPropertyRow::OnItemNodeInitialized() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailPropertyRow.cpp:298]
+FDetailItemNode::InitPropertyEditor() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:154]
+FDetailItemNode::Initialize() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailItemNode.cpp:46]
+FDetailCategoryImpl::GenerateNodesFromCustomizations() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1003]
+FDetailCategoryImpl::GenerateChildrenForSingleLayout() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1025]
+FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\Source\Editor\PropertyEditor\Private\DetailCategoryBuilderImpl.cpp:1041]
+
+[2023.11.19-20.17.54:046][725]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.11.19-20.18.11:499][811]Cmd: SELECT NONE
+[2023.11.19-20.18.12:995][981]Cmd: SELECT NONE
+[2023.11.19-20.18.42:663][938]BlueprintLog: New page: Compile BP_King
+[2023.11.19-20.18.42:690][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.11.19-20.18.43:224][993]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-20.18.43:250][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/BP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset" SILENT=true
+[2023.11.19-20.18.43:261][993]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/BP_King
+[2023.11.19-20.18.43:262][993]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_King9A91896D40D016B5BCE6C1A57E935936.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset'
+[2023.11.19-20.18.43:266][993]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 1.37 sec)
+[2023.11.19-20.18.43:266][993]AssetCheck: New page: Asset Save: BP_King
+[2023.11.19-20.18.43:266][993]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/King/BP_King.BP_King
+[2023.11.19-20.18.51:266][940]LogAssetEditorSubsystem: Opening Asset editor for PaperZDAnimationSource_Flipbook /Game/Blueprints/Characters/King/AS_King.AS_King
+[2023.11.19-20.18.51:311][940]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-20.18.51:311][940]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-20.18.51:384][940]LogSlate: Took 0.020735 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.11.19-20.18.51:405][940]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/PaperZD.PaperZDAnimSequence_Flipbook
+[2023.11.19-20.18.51:408][940]LogViewport: Scene viewport resized to 1525x1254, mode Windowed.
+[2023.11.19-20.18.56:518][299]LogViewport: Scene viewport resized to 1525x749, mode Windowed.
+[2023.11.19-20.19.05:081][322]LogContentBrowser: Attempting asset rename: NewPaperZDAnimSequence -> Defeated
+[2023.11.19-20.19.05:517][322]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-20.19.05:544][322]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/AnimSequences/Defeated
+[2023.11.19-20.19.05:544][322]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Defeated71C68BD549FCBF0C3C278AA50A230A68.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AnimSequences/Defeated.uasset'
+[2023.11.19-20.19.05:551][322]LogFileHelpers: InternalPromptForCheckoutAndSave took 33 ms (total: 1.40 sec)
+[2023.11.19-20.19.05:577][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.11.19-20.19.05:590][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.11.19-20.19.05:601][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.11.19-20.19.05:602][322]AssetCheck: New page: Asset Save: Defeated
+[2023.11.19-20.19.05:602][322]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/Blueprints/Characters/King/AnimSequences/Defeated.Defeated
+[2023.11.19-20.19.29:956][200]LogAssetEditorSubsystem: Opening Asset editor for PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.19-20.19.29:956][200]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-20.19.29:956][200]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-20.20.06:857][488]BlueprintLog: New page: Compile ABP_King
+[2023.11.19-20.20.06:878][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.11.19-20.20.07:360][541]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-20.20.07:390][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.19-20.20.07:402][541]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.19-20.20.07:402][541]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_King77329F4349B79506E9C3F9846712E535.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.19-20.20.07:410][541]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 1.45 sec)
+[2023.11.19-20.20.07:411][541]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.19-20.20.07:411][541]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.19-20.21.04:167][344]BlueprintLog: New page: Compile ABP_King
+[2023.11.19-20.21.04:189][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.11.19-20.21.04:852][419]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-20.21.04:876][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/ABP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset" SILENT=true
+[2023.11.19-20.21.04:888][419]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/ABP_King
+[2023.11.19-20.21.04:888][419]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/ABP_King7F33517F4BC4FB249256EFB8AB62F23A.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/ABP_King.uasset'
+[2023.11.19-20.21.04:893][419]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 1.49 sec)
+[2023.11.19-20.21.04:894][419]AssetCheck: New page: Asset Save: ABP_King
+[2023.11.19-20.21.04:894][419]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/Blueprints/Characters/King/ABP_King.ABP_King
+[2023.11.19-20.22.40:409][725]BlueprintLog: New page: Compile BP_PlatformerChar
+[2023.11.19-20.22.40:470][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.11.19-20.22.41:273][813]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-20.22.41:302][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_PlatformerChar" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset" SILENT=true
+[2023.11.19-20.22.41:308][813]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_PlatformerChar
+[2023.11.19-20.22.41:308][813]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerChar808748CA489D509AAFD3CF813C728166.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset'
+[2023.11.19-20.22.41:313][813]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 1.53 sec)
+[2023.11.19-20.22.41:314][813]AssetCheck: New page: Asset Save: BP_PlatformerChar
+[2023.11.19-20.22.41:314][813]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_PlatformerChar.BP_PlatformerChar
+[2023.11.19-20.22.55:460][510]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-20.22.55:490][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_PlatformerChar" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset" SILENT=true
+[2023.11.19-20.22.55:496][510]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_PlatformerChar
+[2023.11.19-20.22.55:496][510]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_PlatformerChar99B48BFB4B06AABE725A36B3209956B0.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/BP_PlatformerChar.uasset'
+[2023.11.19-20.22.55:501][510]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 1.57 sec)
+[2023.11.19-20.22.55:502][510]AssetCheck: New page: Asset Save: BP_PlatformerChar
+[2023.11.19-20.22.55:502][510]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_PlatformerChar.BP_PlatformerChar
+[2023.11.19-20.22.57:880][789]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.19-20.22.57:884][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.19-20.22.57:884][789]PIE: New page: PIE session: MAP_Tower (19 Nov 2023, 22.22.57)
+[2023.11.19-20.22.57:919][789]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-20.22.57:920][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001375s)
+[2023.11.19-20.22.57:920][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001406s)
+[2023.11.19-20.22.57:933][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.11.19-20.22.57:936][789]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-20.22.57:936][789]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-20.22.57:936][789]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.19-20.22.57:938][789]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2023.11.19-20.22.57:938][789]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.11.19-20.22.57:938][789]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.19-20.22.57:938][789]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.19-20.22.57:938][789]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.19-20.22.57:938][789]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.19-20.22.57:938][789]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.19-20.22.57:938][789]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.19-20.22.57:938][789]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.19-20.22.57:938][789]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.19-20.22.57:938][789]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.19-20.22.57:938][789]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.19-20.22.57:938][789]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.19-20.22.57:940][789]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.19-20.22.57:956][789]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.19-20.22.57:958][789]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.19-20.22.57:958][789]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.19-20.22.57:958][789]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.19-20.22.57:958][789]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.11.19-20.22.57:958][789]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.11.19-20.22.57:959][789]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.11.19-20.22.57:959][789]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.11.19-20.22.57:959][789]LogInit: FAudioDevice initialized with ID 21.
+[2023.11.19-20.22.57:959][789]LogAudio: Display: Audio Device (ID: 21) registered with world 'MAP_Tower'.
+[2023.11.19-20.22.57:960][789]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2023.11.19-20.22.57:962][789]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.19-20.22.57:963][789]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.19-21.22.57
+[2023.11.19-20.22.57:963][789]LogWorld: Bringing up level for play took: 0.001046
+[2023.11.19-20.22.57:964][789]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.11.19-20.22.57:965][789]PIE: Server logged in
+[2023.11.19-20.22.57:967][789]PIE: Play in editor total start time 0,083 seconds.
+[2023.11.19-20.23.01:249][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-20.23.01:249][171]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-20.23.01:249][171]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-20.23.01:249][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.23.01:253][171]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.19-20.23.01:257][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.23.01:266][171]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.19-20.23.01:266][171]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2023.11.19-20.23.01:266][171]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.11.19-20.23.01:267][171]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.11.19-20.23.01:270][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-20.23.01:272][171]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.11.19-20.23.01:321][174]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.11.19-20.23.51:849][111]BlueprintLog: New page: Compile BP_King
+[2023.11.19-20.23.51:881][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.11.19-20.23.52:344][158]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-20.23.52:372][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/BP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset" SILENT=true
+[2023.11.19-20.23.52:384][158]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/BP_King
+[2023.11.19-20.23.52:384][158]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_King7BF0D27A4F6C7E6F516CD6BBC2E53EA1.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset'
+[2023.11.19-20.23.52:389][158]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 1.62 sec)
+[2023.11.19-20.23.52:390][158]AssetCheck: New page: Asset Save: BP_King
+[2023.11.19-20.23.52:390][158]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/King/BP_King.BP_King
+[2023.11.19-20.23.58:990][898]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.11.19-20.23.58:996][898]LogContentBrowser: Creating deferred item: NewFolder
+[2023.11.19-20.23.59:002][899]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.11.19-20.24.02:665][339]LogContentBrowser: Attempting asset rename: NewFolder -> CameraShake
+[2023.11.19-20.24.02:667][339]LogContentBrowser: End creating deferred item NewFolder
+[2023.11.19-20.24.13:447][614]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.11.19-20.24.13:453][614]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.11.19-20.24.13:456][614]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.11.19-20.24.13:477][616]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.11.19-20.24.20:883][504]LogContentBrowser: Attempting asset rename: NewBlueprint -> CS_Defeated
+[2023.11.19-20.24.20:898][504]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.11.19-20.24.22:381][682]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CameraShake/CS_Defeated.CS_Defeated
+[2023.11.19-20.24.22:381][682]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-20.24.22:381][682]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-20.25.51:018][288]BlueprintLog: New page: Compile CS_Defeated
+[2023.11.19-20.25.51:035][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.19-20.25.51:963][392]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-20.25.51:984][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraShake/CS_Defeated" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/CameraShake/CS_Defeated.uasset" SILENT=true
+[2023.11.19-20.25.51:985][392]LogSavePackage: Moving output files for package: /Game/CameraShake/CS_Defeated
+[2023.11.19-20.25.51:985][392]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/CS_Defeated5F7822A94D74E73C5FEC41A87EFE15BB.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/CameraShake/CS_Defeated.uasset'
+[2023.11.19-20.25.51:993][392]LogFileHelpers: InternalPromptForCheckoutAndSave took 29 ms (total: 1.65 sec)
+[2023.11.19-20.25.51:993][392]AssetCheck: New page: Asset Save: CS_Defeated
+[2023.11.19-20.25.51:993][392]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CameraShake/CS_Defeated.CS_Defeated
+[2023.11.19-20.25.59:719][302]LogSlate: Window 'CS_Defeated' being destroyed
+[2023.11.19-20.26.01:451][507]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.19-20.26.01:456][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.19-20.26.01:456][507]PIE: New page: PIE session: MAP_Tower (19 Nov 2023, 22.26.01)
+[2023.11.19-20.26.01:484][507]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-20.26.01:487][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001404s)
+[2023.11.19-20.26.01:487][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001433s)
+[2023.11.19-20.26.01:498][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.11.19-20.26.01:500][507]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-20.26.01:500][507]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-20.26.01:501][507]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.19-20.26.01:501][507]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2023.11.19-20.26.01:501][507]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.11.19-20.26.01:501][507]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.19-20.26.01:501][507]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.19-20.26.01:501][507]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.19-20.26.01:501][507]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.19-20.26.01:501][507]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.19-20.26.01:501][507]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.19-20.26.01:501][507]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.19-20.26.01:501][507]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.19-20.26.01:501][507]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.19-20.26.01:501][507]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.19-20.26.01:501][507]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.19-20.26.01:503][507]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.19-20.26.01:521][507]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.19-20.26.01:521][507]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.19-20.26.01:521][507]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.19-20.26.01:521][507]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.19-20.26.01:521][507]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.11.19-20.26.01:521][507]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.11.19-20.26.01:523][507]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.11.19-20.26.01:523][507]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.11.19-20.26.01:523][507]LogInit: FAudioDevice initialized with ID 22.
+[2023.11.19-20.26.01:523][507]LogAudio: Display: Audio Device (ID: 22) registered with world 'MAP_Tower'.
+[2023.11.19-20.26.01:523][507]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2023.11.19-20.26.01:526][507]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.19-20.26.01:527][507]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.19-21.26.01
+[2023.11.19-20.26.01:527][507]LogWorld: Bringing up level for play took: 0.000996
+[2023.11.19-20.26.01:528][507]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.11.19-20.26.01:530][507]PIE: Server logged in
+[2023.11.19-20.26.01:530][507]PIE: Play in editor total start time 0,075 seconds.
+[2023.11.19-20.26.04:765][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-20.26.04:765][884]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-20.26.04:765][884]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-20.26.04:765][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.26.04:769][884]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.19-20.26.04:773][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.26.04:784][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-20.26.04:784][884]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2023.11.19-20.26.04:785][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.11.19-20.26.04:786][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.11.19-20.26.04:791][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.11.19-20.26.04:832][886]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.11.19-20.26.21:922][897]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-20.26.21:922][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.26.22:948][ 16]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-20.26.22:948][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.26.24:051][144]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-20.26.24:051][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.27.20:370][631]BlueprintLog: New page: Compile BP_King
+[2023.11.19-20.27.20:401][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.11.19-20.27.20:771][667]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-20.27.20:797][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/King/BP_King" FILE="D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset" SILENT=true
+[2023.11.19-20.27.20:808][667]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/BP_King
+[2023.11.19-20.27.20:808][667]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/BP_King7E95B47B4F1A7FEEA291F7B124EDEDA9.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/BP_King.uasset'
+[2023.11.19-20.27.20:814][667]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 1.69 sec)
+[2023.11.19-20.27.20:815][667]AssetCheck: New page: Asset Save: BP_King
+[2023.11.19-20.27.20:815][667]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/King/BP_King.BP_King
+[2023.11.19-20.27.25:338][205]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.19-20.27.25:343][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.19-20.27.25:343][205]PIE: New page: PIE session: MAP_Tower (19 Nov 2023, 22.27.25)
+[2023.11.19-20.27.25:364][205]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-20.27.25:365][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001284s)
+[2023.11.19-20.27.25:365][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Tower.MAP_Tower to /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower (0.001314s)
+[2023.11.19-20.27.25:377][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.11.19-20.27.25:380][205]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.19-20.27.25:380][205]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.19-20.27.25:380][205]LogAIModule: Creating AISystem for world MAP_Tower
+[2023.11.19-20.27.25:381][205]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2023.11.19-20.27.25:381][205]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.11.19-20.27.25:381][205]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.19-20.27.25:381][205]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.19-20.27.25:381][205]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.19-20.27.25:381][205]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.19-20.27.25:381][205]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.19-20.27.25:381][205]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.19-20.27.25:381][205]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.19-20.27.25:381][205]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.19-20.27.25:381][205]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.19-20.27.25:381][205]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.19-20.27.25:381][205]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.19-20.27.25:383][205]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.19-20.27.25:400][205]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (SteelSeries Arctis 9 Chat)
+[2023.11.19-20.27.25:400][205]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.19-20.27.25:400][205]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.19-20.27.25:400][205]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.19-20.27.25:401][205]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.11.19-20.27.25:401][205]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.11.19-20.27.25:403][205]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.11.19-20.27.25:403][205]LogInit: FAudioDevice initialized with ID 23.
+[2023.11.19-20.27.25:403][205]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.11.19-20.27.25:403][205]LogAudio: Display: Audio Device (ID: 23) registered with world 'MAP_Tower'.
+[2023.11.19-20.27.25:403][205]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2023.11.19-20.27.25:404][205]LogLoad: Game class is 'GM_Platformer_C'
+[2023.11.19-20.27.25:405][205]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Tower.MAP_Tower up for play (max tick rate 0) at 2023.11.19-21.27.25
+[2023.11.19-20.27.25:406][205]LogWorld: Bringing up level for play took: 0.000993
+[2023.11.19-20.27.25:407][205]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.11.19-20.27.25:408][205]PIE: Server logged in
+[2023.11.19-20.27.25:408][205]PIE: Play in editor total start time 0,067 seconds.
+[2023.11.19-20.27.28:705][588]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-20.27.28:705][588]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Tower
+[2023.11.19-20.27.28:705][588]LogWorld: UWorld::CleanupWorld for MAP_Tower, bSessionEnded=true, bCleanupResources=true
+[2023.11.19-20.27.28:705][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.27.28:709][588]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.19-20.27.28:712][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.19-20.27.28:723][588]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.19-20.27.28:723][588]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2023.11.19-20.27.28:723][588]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.11.19-20.27.28:724][588]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.11.19-20.27.28:727][588]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.19-20.27.28:729][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.11.19-20.27.28:778][591]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.11.19-20.28.15:817][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.11.19-20.28.15:820][ 58]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Tower' took 0.014
+[2023.11.19-20.28.15:820][ 58]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/King/AnimSequences/Defeated] ([1] browsable assets)...
+[2023.11.19-20.28.15:820][ 58]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/King/AnimSequences/Defeated]
+[2023.11.19-20.28.15:821][ 58]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Characters/King/AnimSequences/Defeated_Auto6
+[2023.11.19-20.28.15:821][ 58]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Defeated_Auto6E8FAA30749758F52498FB49C2604BF46.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Autosaves/Game/Blueprints/Characters/King/AnimSequences/Defeated_Auto6.uasset'
+[2023.11.19-20.28.15:821][ 58]LogFileHelpers: Auto-saving content packages took 0.001
+[2023.11.19-20.28.18:234][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.11.19-20.28.18:237][270]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.19-20.28.18:258][270]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/King/AnimSequences/Defeated
+[2023.11.19-20.28.18:258][270]LogSavePackage: Moving 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Saved/Defeated24CCA7BD4D0EF2396ED26C81062C9CD8.tmp' to 'D:/Source/Unreal Games/Tower Climber/TowerClimber/Content/Blueprints/Characters/King/AnimSequences/Defeated.uasset'
+[2023.11.19-20.28.18:264][270]LogFileHelpers: InternalPromptForCheckoutAndSave took 27 ms (total: 1.72 sec)
+[2023.11.19-20.28.18:266][270]AssetCheck: New page: Asset Save: Defeated
+[2023.11.19-20.28.18:266][270]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/Blueprints/Characters/King/AnimSequences/Defeated.Defeated
